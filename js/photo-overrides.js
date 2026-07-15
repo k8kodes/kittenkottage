@@ -49,4 +49,11 @@ const PHOTO_OVERRIDES = {
       "2023-08-29_IMG_3784.jpeg",
     ],
   },
+  "glimmer-shimmer": {
+    coverOrder: [
+      "2023-07-29_IMG_3302.jpeg",
+      "2023-08-10_71337513451__EA07D697-3F62-4264-9D41-EDE3FF74ABC5.jpeg",
+      "2023-08-01_IMG_3381.jpeg",
+    ],
+  },
 };
