@@ -16,6 +16,7 @@ EXCLUDED_FILENAMES = {
     "IMG_6966.jpeg",
     "IMG_5783.jpeg",
     "IMG_4844.jpeg",
+    "IMG_3722.jpeg",
     "IMG_3898.jpeg",
 }
 

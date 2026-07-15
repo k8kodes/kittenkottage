@@ -114,7 +114,6 @@ const PHOTOS_MANIFEST = {
   "hazel-aspen-ash-oak": [
     "2023-08-26_IMG_3036.jpeg",
     "2023-08-26_IMG_3719.jpeg",
-    "2023-08-26_IMG_3722.jpeg",
     "2023-08-28_IMG_3763.jpeg",
     "2023-08-28_IMG_3764.jpeg",
     "2023-08-28_IMG_3769.jpeg",
