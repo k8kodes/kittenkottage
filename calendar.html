@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foster Calendar — Kitten Kottage</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand"><span class="paw">🐾</span> Kitten Kottage</div>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="calendar.html" class="active">Calendar</a>
+    <a href="litters.html">Litters</a>
+    <a href="about.html">About &amp; Support</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Foster Calendar</h1>
+  <p>Every arrival and every weigh-in, laid out day by day. Click a day for the details.</p>
+
+  <div class="legend">
+    <span><span class="dot new"></span> New Fosters! (arrival day)</span>
+    <span><span class="dot weigh"></span> Weigh-in logged</span>
+  </div>
+
+  <div class="calendar-header">
+    <h2 id="calendar-title"></h2>
+    <div class="calendar-nav">
+      <button id="prev-month" aria-label="Previous month">&larr;</button>
+      <button id="today-btn">Today</button>
+      <button id="next-month" aria-label="Next month">&rarr;</button>
+    </div>
+  </div>
+
+  <div class="calendar-grid" id="calendar-grid"></div>
+</main>
+
+<div class="day-modal-backdrop" id="day-modal-backdrop">
+  <div class="day-modal" id="day-modal"></div>
+</div>
+
+<footer>
+  Foster diary maintained with love. All kittens have gone on to their forever homes (or are working on it). 🐾<br>Fostered through <a href="https://www.green-hill.org/" target="_blank" rel="noopener">Greenhill Humane Society</a>.
+</footer>
+
+<script src="js/kittens-data.js?v=5"></script>
+<script src="js/utils.js?v=5"></script>
+<script src="js/calendar.js?v=5"></script>
+</body>
+</html>

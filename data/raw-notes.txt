@@ -1,0 +1,1377 @@
+3 kittens 7/1/26
+Greenhill weights 7/1/26
+AH 1- F- Tortie: 0.91
+AH 2- M- Tuxedo: 1.09
+AH 3- M- Orange tabby: 0.88
+AH 1- F- Tortie: 0.935 (science diet kibble, dry)
+AH 2- M- Tuxedo: 1.030
+AH 3- M- Orange tabby: 0.850
+7/2/26
+AH 1- F- Tortie: 0.915 (science diet kibble, dry, urgent care thinned with warm water)
+AH 2- M- Tuxedo: 1.000
+AH 3- M- Orange tabby: 0.875 (science diet kibble, dry, urgent care thinned with warm water)
+7/3/26
+Iris- F- Tortie: 0.910
+Pete- M- Tuxedo: 0.935
+Nemo- M- Orange: 0.925
+7/4/26
+Iris- F- Tortie: 0.930
+Pete- M- Tuxedo: 0.895
+Nemo- M- Orange: 0.960
+7/5/26
+Iris- F- Tortie: 1.020
+Pete- M- Tuxedo: 0.875
+Nemo- M- Orange: 0.995
+7/6/26
+Iris- F- Tortie: 1.040
+Pete- M- Tuxedo: 0.820
+Nemo- M- Orange: 1.030
+7/7/26
+Iris- F- Tortie: 1.055
+Pete- M- Tuxedo: 0.820
+Nemo- M- Orange: 1.100
+7/8/26
+Iris- F- Tortie: 1.100
+Pete- M- Tuxedo: 0.815
+Nemo- M- Orange: 1.160
+7/9/26
+Iris- F- Tortie: 1.100
+Nemo- M- Orange: 1.205
+7/10/26
+Iris- F- Tortie: 1.175
+Nemo- M- Orange: 1.100
+7/11/26
+Iris- F- Tortie: 1.150
+Nemo- M- Orange: 1.340
+
+
+4 kittens 5/11/26
+5/12/26:
+Kit 1 (M, solid grey): .653
+Kit 2 (F, dilute tortie): .730
+Kit 3 (M, buff): .882
+Kit 4 (M, buff): .776
+5/13/26:
+Pascal -Kit 1 (M, solid grey): .645
+Lovelace -Kit 2 (F, dilute tortie): .688
+Euler- Kit 3 (M, buff): .933
+Fibonacci -Kit 4 (M, buff): .800
+5/14/26:
+Pascal -(M, solid grey): .670
+Lovelace -(F, dilute tortie): .695
+Euler- (M, buff): .880
+Fibonacci - (M, buff): .830
+5/16/26:
+1- Pascal -(M, solid grey): .605
+2- Lovelace -(F, dilute tortie): .690
+3- Euler- (M, buff): .825
+4- Fibonacci - (M, buff): .875
+5/17/26:
+1- Pascal -(M, solid grey): .685
+2- Lovelace -(F, dilute tortie): .685
+3- Euler- (M, buff): .895
+4- Fibonacci - (M, buff): .935
+5/18/26:
+1- Pascal -(M, solid grey): .700
+2- Lovelace -(F, dilute tortie): .685
+3- Euler- (M, buff): .920
+4- Fibonacci - (M, buff): .990
+5/19/26:
+1- Pascal -(M, solid grey): .765
+2- Lovelace -(F, dilute tortie): .820
+3- Euler- (M, buff): .985
+4- Fibonacci - (M, buff): 1.030
+5/20/26:
+1- Pascal -(M, solid grey): .825
+2- Lovelace -(F, dilute tortie): .840
+3- Euler- (M, buff): 1.010
+4- Fibonacci - (M, buff): 1.100
+5/21/26:
+1- Pascal -(M, solid grey): .900
+2- Lovelace -(F, dilute tortie): .920
+3- Euler- (M, buff): 1.100
+4- Fibonacci - (M, buff): 1.100
+5/22/26:
+1- Pascal -(M, solid grey): .985
+2- Lovelace -(F, dilute tortie): .960
+3- Euler- (M, buff): 1.100
+4- Fibonacci - (M, buff): 1.100
+
+
+Mamá and 4 kittens 4/11/26
+4/12/26
+Penelope: 9:5
+Kit 1 (Calypso): 1lb 2.3oz
+Kit 2: 15.3oz
+Kit 3: 1lb 0.7oz
+Kit 4 (Beans): 1lb 1.6oz
+4/14/26
+Penelope: 9:7 1/2
+Kit 1 (Calypso): 1lb 3.00z
+Kit 2 (Onyx): es 15.9oz
+Kit 3 (Terry): 1lb 2.3oz
+Kit 4 (Beans): 1lb 2.6oz
+Beans, Calypso, Terry eating wet food
+4/17/26
+Penelope: 9:3
+Kit 1 (Calypso): 1lb 4.6oz
+Kit 2 (Onyx): 1lb 1.5oz
+Kit 3 (Terry): 1lb 5.3oz
+Kit 4 (Beans): 1lb 4.5oz
+4/19/26
+Penelope: 9:0 1/2
+Kit 1 (Calypso): 1lb 6.0oz
+Kit 2 (Onyx): 1lb 2.9oz
+Kit 3 (Terry): 1lb 6.9oz
+Kit 4 (Beans): 1lb 5.2oz
+4/21/26
+Penelope: 9:0
+Kit 1 (Calypso): 1lb 6.8oz
+Kit 2 (Onyx): 1lb 4.2oz
+Kit 3 (Terry): 1lb 8.3oz
+Kit 4 (Beans): 1lb 7.5oz
+4/23/26
+Penelope: 8:12
+Kit 1 (Calypso): 1lb 9.2oz
+Kit 2 (Onyx): 1lb 5.7oz
+Kit 3 (Terry): 1lb 9.7oz
+Kit 4 (Beans): 1lb 9.6oz
+4/24/26
+Penelope: 8:12 1/2
+Kit 1 (Calypso): 1: 9 1/2
+Kit 2 (Onyx): 1: 6 1/2
+Kit 3 (Terry): 1: 10 1/2
+Kit 4 (Beans): 1: 10 1/2
+4/26/26
+Penelope: 9: 1 1/2
+Kit 1 (Calypso): 1: 11
+Kit 2 (Onyx): 1: 8 1/2
+Kit 3 (Terry): 1: 11 1/2
+Kit 4 (Beans): 1: 12
+4/28/26
+Penelope: 8:12
+Kit 1 (Calypso): 1: 12
+Kit 2 (Onyx): 1: 9
+Kit 3 (Terry): 1: 13
+Kit 4 (Beans): 1: 14
+
+
+Mom & Kittens 2/4/26
+PL Mom: F 8.88# DSH B/W Tux
+PL1: F 3.7oz white
+PL2: F 4.55oz white
+PL3: F 4.65oz Gr tab w/white
+PL4: F 4.45oz Gr tab
+PL5: M 4.60oz Gr Tab w/white
+PL6: M 4.50oz Black
+@home 2/4/26
+PL1: F 4.2
+PL2: F (pink) 4.7
+PL3: F 4.6
+PL4: F 4.5
+PL5: M (teal) 4.8
+PL6: M (white) 4.3
+2/5/26
+Mama: 9.060
+PL1: F: 4.6
+PL2: F (pink): 5.1
+PL3: F: 5.2
+PL4: F: 5.0
+PL5: M (teal): 5.3
+PL6: M (white): 4.0
+2/6/26
+Mom: Joyce:
+PL 1: El: 5.4
+PL 2: Robin (pink tail): 5.4
+PL 3: Nancy: 6.0
+PL 4: Erica: 5.4
+PL 5: Dustin (teal tail): 6.0
+PL 6: Jonathan (white tail): 4.1
+2/7/26
+Mom: Joyce: 8.920
+PL 1: El: 6.1
+PL 2: Robin (pink tail): 6.1
+PL 3: Nancy: 6.6
+PL 4: Erica: 6.0
+PL 5: Dustin (teal tail): 6.5
+PL 6: Jonathan (white tail): 4.8
+2/8/26
+Mom: Joyce: 9.020
+PL 1: El: 6.9
+PL 2: Robin (pink tail): 6.7
+PL 3: Nancy: 6.9
+PL 4: Erica: 6.2
+PL 5: Dustin (teal tail): 7.2
+PL 6: Jonathan (white tail): 5.4
+2/9/26
+Mom: Joyce: 8.900
+PL 1: El: 7.5
+PL 2: Robin (pink tail): 7.3
+PL 3: Nancy: 7.8
+PL 4: Erica: 7.2
+PL 5: Dustin (teal tail): 7.6
+PL 6: Jonathan (white tail): 5.5
+2/10/26
+Mom: Joyce: 8.780
+PL 1: El: 8.3
+PL 2: Robin (pink tail): 7.6
+PL 3: Nancy: 8.4
+PL 4: Erica: 7.4
+PL 5: Dustin (teal tail): 7.9
+PL 6: Jonathan (white tail): 5.9
+2/11/26
+Mom: Joyce: 8.660
+PL 1: El: 8.8
+PL 2: Robin: 8.1
+PL 3: Nancy: 8.9 (1 eye open)
+PL 4: Erica: 7.9 (both eyes open)
+PL 5: Dustin: 8.5 (1/2 of 1 eye open)
+PL 6: Jonathan: 6.2
+2/14/26
+Mom: Joyce: 8.500
+El: 9.5 (both eyes open)
+Robin: 8.7
+Nancy: 10.3 (both eyes open)
+Erica: 9.4 (both eyes open)
+Dustin: 10.0 (one eye open, one eye half open)
+Jonathan: 7.8 (both eyes open)
+2/17/26 (all eyes open)
+Mom: Joyce:8.300
+El: 10.9
+Robin: 10.5
+Nancy: 11.7
+Erica: 10.8
+Dustin: 11.3
+Jonathan: 8.7
+2/20/26
+Mom: Joyce:8.280
+El: 11.9
+Robin: 11.3
+Nancy: 12.8
+Erica: 11.7
+Dustin: 12.6
+Jonathan: 9.6
+2/23/26
+Mom: Joyce: 8.32
+El: 13.4
+Robin: 12.9
+Nancy: 14.6
+Erica: 13.4
+Dustin: 14.6
+Jonathan: 10.8
+2/26/26
+Mom: Joyce: 8.560
+El: 15.1
+Robin: 13.9
+Nancy: 1:00.2
+Erica: 15.7
+Dustin: 15.3
+Jonathan: 12.0
+3/1/26
+Mom: Joyce: 8.000
+El: 15.7
+Robin: 15.1
+Nancy: 1:01.8
+Erica: 1:00.7
+Dustin: 1:00.3
+Jonathan: 13.9
+3/4/26
+Mom: Joyce: 7.440
+El: 1:00.1
+Robin: 15.2
+Nancy: 1:02.0
+Erica: 1:00.8
+Dustin: 1:00.9
+Jonathan: 14.5
+3/7/26
+Mom: Joyce: 7.160
+El: 1:00.9
+Robin: 1:00.8
+Nancy: 1:03.1
+Erica: 1:02.0
+Dustin: 1:02.0
+Jonathan: 15.1
+3/10/26
+Mom: Joyce: 7.140
+El: 1:02.1 (one beige kitten eating Iams healthy kitten)
+Robin: 1: 1:01.7
+Nancy: 1:04.6 (eating Iams healthy kitten cuts, full strength)
+Erica: 1:03.6 (eating science diet kitten kibble, dry & Iam healthy kitten cuts with water)
+Dustin: 1:02.6
+Jonathan:1:00.1 (eating science diet kitten wet food: salmon & turkey & Iam healthy kitten wet food)
+3/13/26
+Mom: Joyce: 7.040
+El: 1:04.2
+Robin: 1:03.3
+Nancy: 1:06.2
+Erica: 1:05.9
+Dustin: 1:04.5
+Jonathan: 1:02.8
+3/18/26
+Mom: Joyce: 6.500
+El: 1:07.1
+Robin: 1:05.0
+Nancy: 1:10.3
+Erica: 1:09.4
+Dustin: 1:07.3
+Jonathan: 1:06.9
+3/20/26
+Mom: Joyce: 7.060
+El: 1.520
+Robin: 1.360
+Nancy: 1.660
+Erica: 1.720
+Dustin: 1.500
+Jonathan: 1.540
+3/22/26
+Mom: Joyce: 7.
+El: 1.640
+Robin: 1.440
+Nancy: 1.780
+Erica: 1.880
+Dustin: 1.700
+Jonathan: 1.700
+Joyce: Royal Canin Kitten thin slices
+All: science diet kitten kibble
+El, Erica, Dustin, Jonathan: science diet kitten- salmon
+Nancy: iams perfect portion healthy kitten chicken recipe.
+Robin: doesn't like any wet food.
+
+
+Mama and kittens July 2025
+7/9
+JB 6 (mama): 10.42
+JB Kit 1 (calico) 2.95oz
+JB Kit 2 (orange) 3.6
+JB Kit 3 (orange) 3.75
+JB Kit 4 (brown black tabby) 3.55
+JB Kit 5 (calico) 3.7
+JB Kit 6 (brown black tabby) 7.4
+JB Kit 7 (black orange tortie) 7.05
+7/10
+JB 6 (mama): 9:15
+JB Kit 1 (calico) 3.3
+JB Kit 2 (orange) 5.0
+JB Kit 3 (orange) 4.2
+JB Kit 4 (brown black tabby) 4.1
+JB Kit 5 (calico) 4.3
+JB Kit 6 (brown black tabby) 8.7
+JB Kit 7 (black orange tortie) 8.5
+7/11
+(mama): 10:1.5
+1: 3.5
+2: 5.4
+3: 4.5
+4: 4.3
+5: 4.4
+6: 9.2
+7: 8.9
+7/12
+Mama (Stella): 10:5.5
+1 (Astraea): 3.8
+2 (Apollo): 5.9
+3 (Mercury): 4.8
+4 (Pulsar): 4.4
+5 (Flare): 4.5
+6 (Luna): 9.5
+7 (Nova): 9.2
+7/13
+Mama (Stella): 10:0.5
+1 (Astraea): 4.2 (both eyes open)
+2 (Apollo): 6.1 (both eyes open)
+3 (Mercury): 5.0 (both eyes open)
+4 (Pulsar): 4.9 (both eyes open)
+5 (Flare): 4.9 (1 eye open)
+6 (Luna): 9.8
+7 (Nova): 9.8
+7/14
+Mama (Stella): 10:01.5
+1 (Astraea): 4.4
+2 (Apollo): 6.1
+3 (Mercury): 5.2
+4 (Pulsar): 5.2
+5 (Flare): 5.1
+6 (Luna): 10.2
+7 (Nova): 10.2
+7/15
+Mama (Stella): 10:
+1 (Astraea): 4.6
+2 (Apollo): 6.1
+3 (Mercury): 5.3
+4 (Pulsar): 5.4
+5 (Flare): 5.2
+6 (Luna): 10.2
+7 (Nova): 10.3
+7/16
+Mama (Stella): 10:2.0
+1 (Astraea): 4.7
+2 (Apollo): 5.9
+3 (Mercury): 5.4
+4 (Pulsar): 5.5
+5 (Flare): 5.3
+6 (Luna): 10.4
+7 (Nova): 10.4
+7/18
+Mama (Stella): 9:14.5
+1 (Astraea): 4.8
+2 (Apollo): 6.7
+3 (Mercury): 5.9
+4 (Pulsar): 5.5
+5 (Flare): 5.4
+6 (Luna): 11.1
+7 (Nova): 11.2
+7/19
+Mama (Stella): 9:14.5
+1 (Astraea): 5.0
+2 (Apollo): 6.6
+3 (Mercury): 6.0
+4 (Pulsar): 5.9
+5 (Flare): 5.4
+6 (Luna): 11.4
+7 (Nova): 11.4
+7/20: Greenhill Check Up
+7/22
+Mama (Stella): 9:13
+1 (Astraea): 5.7
+2 (Apollo): 7.7
+3 (Mercury): 6.7
+4 (Pulsar): 7.2
+5 (Flare): 6.1
+6 (Luna): 12.0
+7 (Nova): 13.1
+7/24
+Mama (Stella): 10:4.5
+1 (Astraea): 6.1
+2 (Apollo): 8.3
+3 (Mercury): 7.3
+4 (Pulsar): 8.0
+5 (Flare): 6.9
+6 (Luna): 12.5
+7 (Nova): 13.9
+7/29
+Mama (Stella): 10:12.0
+1 (Astraea): 7.1
+2 (Apollo): 10.1
+3 (Mercury): 7.5
+4 (Pulsar): 9.7
+5 (Flare): 9.0
+6 (Luna): 14.2
+7 (Nova): 1:02.0
+7/31
+Mama (Stella): 10:5.0
+1 (Astraea): 7.4
+2 (Apollo): 10.6
+3 (Mercury): 8.3
+4 (Pulsar): 10.5
+5 (Flare): 9.9
+6 (Luna): 14.7
+7 (Nova): 1:02.9
+8/2
+Mama (Stella): 10:5.5
+1 (Astraea): 8.9
+2 (Apollo): 11.6
+3 (Mercury): 9.0
+4 (Pulsar): 11.4
+5 (Flare): 10.8
+6 (Luna): 1:00.0
+7 (Nova): 1:04.2
+8/4
+Mama (Stella): 10:9.0
+1 (Astraea): 9.7
+2 (Apollo): 11.7
+3 (Mercury): 10.2
+4 (Pulsar): 12.6
+5 (Flare): 12.5
+6 (Luna): 1:01.2
+7 (Nova): 1:06.7
+8/6
+Mama (Stella): 10:7.5
+1 (Astraea): 11.5
+2 (Apollo): 12.6
+3 (Mercury): 10.9
+4 (Pulsar): 14.5
+5 (Flare): 14.0
+6 (Luna): 1:02.1
+7 (Nova): 1:07.6
+8/8
+Mama (Stella): 10:14.5
+1 (Astraea): 12.3
+2 (Apollo): 13.7
+3 (Mercury): 12.0
+4 (Pulsar): 1:00.0
+5 (Flare): 15.3
+6 (Luna): 1:02.7
+7 (Nova): 1:09.0
+8/9
+Mama (Stella): 10:08.0
+1 (Astraea): 13.9
+2 (Apollo): 14.2
+3 (Mercury): 12.8
+4 (Pulsar): 1:01.2
+5 (Flare): 1:00.5
+6 (Luna): 1:03.8
+7 (Nova): 1:10.1
+8/11
+Mama (Stella): 10:11.5
+1 (Astraea): 15.4
+2 (Apollo): 15.9
+3 (Mercury): 14.7
+4 (Pulsar): 1:02.7
+5 (Flare): 1:01.8
+6 (Luna): 1:04.4
+7 (Nova): 1:11.1
+8/13
+Mama (Stella): 10:2.5
+1 (Astraea): 15.7
+2 (Apollo): 1:01.1
+3 (Mercury): 1:00.2
+4 (Pulsar): 1:03.8
+5 (Flare): 1:02.4
+6 (Luna): 1:05.1
+7 (Nova): 1:12.5
+8/15
+Mama (Stella): 10:00
+1 (Astraea): 1:00.3
+2 (Apollo): 1:02.7
+3 (Mercury): 1:01.9
+4 (Pulsar): 1:04.4
+5 (Flare): 1:03.2
+6 (Luna): 1:07.1
+7 (Nova): 1:14.1
+8/18
+Mama (Stella): 10:1.5
+1 (Astraea): 1:01.1
+2 (Apollo): 1:05.4
+3 (Mercury): 1:03.4
+4 (Pulsar): 1:03.6
+5 (Flare): 1:04.9
+6 (Luna): 1:09.0
+7 (Nova): 2:00.9
+8/20
+Mama (Stella): 10:1.5
+1 (Astraea): 1:02.2
+2 (Apollo): 1:06.5
+3 (Mercury): 1:04.7
+4 (Pulsar): 1:03.8
+5 (Flare): 1:06.9
+6 (Luna): 1:10.1
+7 (Nova): 2:01.9
+8/22
+1 (Astraea): 1:01.7
+2 (Apollo): 1:07.7
+3 (Mercury): 1:05.6
+4 (Pulsar): 1:04.0
+5 (Flare): 1:08.6
+8/23
+1 (Astraea): 1:01.4
+2 (Apollo): 1:08.4
+3 (Mercury): 1:05.2
+4 (Pulsar): 1:05.1
+5 (Flare): 1:08.9
+8/24
+1 (Astraea): 1:01.7
+2 (Apollo): 1:09.3
+3 (Mercury): 1:04.8
+4 (Pulsar): 1:05.4
+5 (Flare): 1:08.8
+8/25
+1 (Astraea): 1:01.2
+2 (Apollo): 1:10.6
+3 (Mercury): 1:07.0
+4 (Pulsar): 1:06.5
+5 (Flare): 1:10.5
+8/26
+1 (Astraea): 1:01.0
+2 (Apollo): 1:11.7
+3 (Mercury): 1:07.5
+4 (Pulsar): 1:06.9
+5 (Flare): 1:11.1
+8/28
+1 (Astraea): 1:01.3
+3 (Mercury): 1:10.0
+4 (Pulsar): 1:10.2
+8/30
+1 (Astraea): 1:01.3
+3 (Mercury): 1:10.7
+4 (Pulsar): 1:10.3
+9/1
+1 (Astraea): 1:00.9
+3 (Mercury): 1:13.3
+4 (Pulsar): 1:12.9
+9/3
+1 (Astraea): 1:01.4
+3 (Mercury): 1:14.1
+4 (Pulsar): 1:13.7
+9/5
+1 (Astraea): 1:02.0
+3 (Mercury): 2:00.3
+4 (Pulsar): 2:00.1
+9/7
+1 (Astraea): 1:02.4
+3 (Mercury): 2:01.2
+4 (Pulsar): 2:00.3
+9/9
+1 (Astraea): 1:02.1
+3 (Mercury): 2:02.3
+4 (Pulsar): 2:01.4
+9/11
+1 (Astraea): 1:01.8
+3 (Mercury): 2:05.4
+4 (Pulsar): 2:03.4
+9/13
+1 (Astraea): 1:02.7
+9/14
+1 (Astraea): 1:04.5
+9/15
+1 (Astraea): 1:05.9
+9/16
+1 (Astraea): 1:07.1
+9/17
+1 (Astraea): 1:08.0
+9/19
+1 (Astraea): 1:08.9
+9/21
+1 (Astraea): 1:07.8
+9/22
+1 (Astraea): 1:06.9
+9/23
+1 (Astraea): 1:06.8
+9/24
+1 (Astraea): 1:08.6
+9/25
+1 (Astraea): 1:08.8
+9/26
+1 (Astraea): 1:11.4
+9/27
+1 (Astraea): 1:12.6
+9/28
+1 (Astraea): 1:
+9/29
+1 (Astraea): 1:
+9/30
+1 (Astraea): 1:13.8
+10/1
+1 (Astraea): 1:15.5
+10/3
+1 (Astraea): 2:00.5
+10/5
+1 (Astraea): 1:15.1
+
+
+Mom & Kittens 4/12/25
+At Greenhill 4/12/25
+Mom: 7.13
+JM1: 15
+JM2: 13.5
+JM3: (female: solid black): 14
+JM4: 1:06
+JM5: 15.5
+JM6: 14.5
+4/13/25
+Mom:
+JM1: 1.00.2
+JM2: 14.3
+JM3: (female: solid black): 14.7
+JM4: 1:02.3
+JM5: 1.00.4
+JM6: 15.1
+4/15/25
+Mom:
+JM1: 1.00.4
+JM2: 14.9
+JM3: 15.4
+JM4: 1.03
+JM5: 101.5
+JM6: 15.6
+Names:
+Mom: Churro
+JM1: Queso -Darker Black
+JM2: Baja- Nose spot
+JM3: Fuego -All Black
+JM4: Chip -Solid "M"
+JM5: Taco - Broken "M"
+JM6: Beans - White face
+4/17/25
+Mom: Churro
+JM1: Queso: 101.5 (eating gruel like a champ)
+JM2: Baja: 15.0
+JM3: Fuego: 15.1
+JM4: Chip: 103.7 (used litter box)
+JM5: Taco: 102.5
+JM6: Beans: 15.5
+4/19/25
+JM1: Queso: 102.7
+JM2: Baja: 15.8
+JM3: Fuego: 15.8
+JM4: Chip: 106.4
+JM5: Taco: 104.3 (eating gruel)
+JM6: Beans: 100.4
+4/21/25
+JM1: Queso: 104.5
+JM2: Baja: 101.1
+JM3: Fuego: 100.3
+JM4: Chip: 107.8
+JM5: Taco: 105.8
+JM6: Beans: 101
+4/25/25
+JM1: Queso: 1:07.9
+JM2: Baja: 1:03.7
+JM3: Fuego: 1:01.6
+JM4: Chip: 1:08.2
+JM5: Taco: 1:11.0
+JM6: Beans: 103.8
+4/26/25
+Churro, Queso and Chip stayed at Greenhill!
+JM2: Baja: 1:03.8
+JM3: Fuego: 1:02.2
+JM5: Taco: 1:09.1
+JM6: Beans: 1:04.1
+4/29/25
+JM2: Baja: 1:05.6
+JM3: Fuego: 1:02.9
+JM5: Taco: 1:10.6
+JM6: Beans: 1:05.0
+4/30/25
+JM2: Baja: 1:06.1
+JM3: Fuego: 1:03.2
+JM5: Taco: 1:11.4
+JM6: Beans: 1:05.3
+5/2/25
+JM2: Baja: 1:08.9
+JM3: Fuego: 1:04.9
+JM5: Taco: 1:14.0
+JM6: Beans: 1:06.6
+5/4/25
+JM2: Baja: 1:09.4
+JM3: Fuego: 1:06.9
+JM5: Taco: 1:15.3
+JM6: Beans: 1:07.3
+5/5/25
+JM2: Baja: 1:11.5
+JM3: Fuego: 1:07.0
+JM5: Taco: 1:15.9
+JM6: Beans: 1:08.5
+5/6/25
+JM2: Baja: 1:12.5
+JM3: Fuego: 1:08.9
+JM5: Taco: 2:01.5
+JM6: Beans: 1:09.0
+5/8/25
+JM2: Baja: 1:13.0
+JM3: Fuego: 1:10.1
+JM5: Taco: 2:02.9
+JM6: Beans: 1:10.0
+
+
+Foster kitten- Boeing
+12/23/24
+12/24/24
+2.08.7 (approx, arrival estimate)
+12/25/24
+2.06.6
+12/27/24
+2.06.6
+12/29/24
+2.08.0
+12/30/24
+2.11.4
+12/31/24
+2.13.6
+1/2/25
+3.00.0
+1/7/25
+3.01.8
+1/8/25
+3.05.0
+1/9/25
+3.05.4
+1/10/25
+3.07.4
+1/12/25
+3.09.4
+1/16/25
+3.15.5
+1/20/25
+4.07.9
+
+
+Fosters August 2024
+8/27/24
+Mom (Professor Inkling): 8.06.5
+1 (Kwazi): 10.7
+2 (Dashi): 9.9
+3 (Shellington): 11.8
+4 (Captain Barnacle): 13.1
+5 (Tunip): 12.4
+6 (Peso): 13.2
+8/28/24
+Mom (Professor Inkling): 8.9.0
+1 (Kwazi): 11.2
+2 (Dashi): 10.2
+3 (Shellington): 12.9
+4 (Captain Barnacle): 13.6
+5 (Tunip): 12.7
+6 (Peso): 13.8
+8/29/24
+Mom (Professor Inkling): 8.11.0
+1 (Kwazi): 11.9
+2 (Dashi): 10.5
+3 (Shellington): 13.7
+4 (Captain Barnacle): 14.1
+5 (Tunip): 13.0
+6 (Peso): 14.5
+8/31/24
+Mom (Professor Inkling): 8.3.5
+1 (Kwazi): 13.1
+2 (Dashi): 11.2
+3 (Shellington): 14.3
+4 (Captain Barnacle): 15.1
+5 (Tunip): 14.0
+6 (Peso): 15.5
+9/2/24
+Mom (Professor Inkling): 8.4.5
+1 (Kwazi): 14.1
+2 (Dashi): 11.5
+3 (Shellington): 15.4
+4 (Captain Barnacle): 16.2
+5 (Tunip): 14.6
+6 (Peso): 16.5
+9/3/24
+Mom (Professor Inkling): 8.3.5
+1 (Kwazi): 14.1
+2 (Dashi): 12.0
+3 (Shellington): 16.1
+4 (Captain Barnacle): 16.4
+5 (Tunip): 14.7
+6 (Peso): 17.3
+9/5/24
+Mom (Professor Inkling): 8.3.5
+1 (Kwazi): 15.1
+2 (Dashi): 12.1
+3 (Shellington): 16.5
+4 (Captain Barnacle): 17.6
+5 (Tunip): 15.5
+6 (Peso): 18.6
+9/7/24
+Mom (Professor Inkling): 8.9.5
+1 (Kwazi): 15.6
+2 (Dashi): 12.7
+3 (Shellington): 17.0
+4 (Captain Barnacle): 18.2
+5 (Tunip): 16.2
+6 (Peso): 19.0
+9/11/24
+Mom (Professor Inkling): 7.13.5
+1 (Kwazi): 1:01.4
+2 (Dashi): 14.2
+3 (Shellington): 1:02.7
+4 (Captain Barnacle): 1:04.3
+5 (Tunip): 1:02.6
+6 (Peso): 1:05.0
+9/13/24
+Mom (Professor Inkling): 8.5.0
+1 (Kwazi): 1:01.6
+2 (Dashi): 14.9
+3 (Shellington): 1:04.1
+4 (Captain Barnacle): 1:06.0
+5 (Tunip): 1:03.2
+6 (Peso): 1:06.2
+9/16/24
+Mom (Professor Inkling): 8.2.5
+1 (Kwazi): 1:02.8
+2 (Dashi): 1:00.3
+3 (Shellington): 1:06.0
+4 (Captain Barnacle): 1:06.5
+5 (Tunip): 1:04.6
+6 (Peso): 1:07.8
+9/20/24
+Mom (Professor Inkling): 8.0
+1 (Kwazi): 1:03.7
+2 (Dashi): 1:01.5
+3 (Shellington): 1:08.7
+4 (Captain Barnacle): 1:08.7
+5 (Tunip): 1:05.4
+6 (Peso): 1:09.6
+9/22/24
+Mom (Professor Inkling): 8.08.5
+1 (Kwazi): 1:04.3
+2 (Dashi): 1:02.4
+3 (Shellington): 1:10.6
+4 (Captain Barnacle): 1:09.7
+5 (Tunip): 1:06.4
+6 (Peso): 1:11.6
+9/26/24
+Mom (Professor Inkling): 8.04.0
+1 (Kwazi): 1:05.8
+2 (Dashi): 1:03.8
+3 (Shellington): 1:12.4
+4 (Captain Barnacle): 1:14.0
+5 (Tunip): 1:08.3
+6 (Peso): 1:14.0
+9/30/24
+Mom (Professor Inkling): 8:00.5
+1 (Kwazi): 1:07.1
+2 (Dashi): 1:06.0
+3 (Shellington): 1:15.2
+4 (Captain Barnacle): 1:12.5
+5 (Tunip): 1:11.1
+6 (Peso): 2:00.2
+10/3/24
+Mom (Professor Inkling): 7:11
+1 (Kwazi): 1:08.3
+2 (Dashi): 1:07.1
+3 (Shellington): 2:02.5
+4 (Captain Barnacle): 1:15.0
+5 (Tunip): 1:13.0
+6 (Peso): 2:02.8
+10/7/24
+1 (Kwazi): 1:08.6
+2 (Dashi): 1:09.0
+10/10/24
+1 (Kwazi): 1:09.9
+2 (Dashi): 1:09.3
+
+
+4 Void Kittens 4/20/24
+4/20/24
+VS7 (Johnny): 1:02.3
+VS8 (Moon): 1:09.2
+VS9 (Tiger): 1:07.8
+VS10 (Pepper): 1:02.3
+4/24/24
+VS7 (Johnny): 1:05.0
+VS8 (Moon): 1:12.0
+VS9 (Tiger): 1:08.2
+VS10 (Pepper): 1:05.0
+4/25/24
+VS7 (Johnny): 1:05.8
+VS8 (Moon): 1:11.3
+VS9 (Tiger): 1:09.2
+VS10 (Pepper): 1:05.2
+4/26/24
+VS7 (Johnny): 1:06.1
+VS8 (Moon): 1:11.8
+VS9 (Tiger): 1:08.7
+VS10 (Pepper): 1:05.7
+4/27/24
+VS7 (Johnny): 1:06.8
+VS8 (Moon): 1:11.3
+VS9 (Tiger): 1:08.7
+VS10 (Pepper): 1:06.2
+4/28/24
+VS7 (Johnny): 1:06.1
+VS8 (Moon): 1:10.2
+VS9 (Tiger): 1:08.8
+VS10 (Pepper): 1:06.2
+4/29/24
+VS7 (Johnny): 1:05.8
+VS8 (Moon): 1:09.9
+VS9 (Tiger): 1:08.7
+VS10 (Pepper): 1:06.3
+4/30/24
+VS7 (Johnny): 1:06.3
+VS8 (Moon): 1:10.2
+VS9 (Tiger): 1:09.0
+VS10 (Pepper): 1:06.2
+5/1/24
+VS7 (Johnny): 1:06.0
+VS8 (Moon): 1:11.2
+VS9 (Tiger): 1:10.2
+VS10 (Pepper): 1:06.0
+5/4/24
+VS7 (Johnny): 1:07.8
+VS8 (Moon): 1:15.3
+VS9 (Tiger): 1:11.7
+VS10 (Pepper): 1:07.4
+5/6/24
+VS7 (Johnny): 1:08.3
+VS8 (Moon): 2:02.1
+VS9 (Tiger): 1:13.6
+VS10 (Pepper): 1:08.5
+5/8/24
+VS7 (Johnny): 1:08.7
+VS8 (Moon): 2:04.6
+VS9 (Tiger): 1:13.6
+VS10 (Pepper): 1:11.0
+5/9/24
+VS7 (Johnny): 1:10.0
+VS8 (Moon): 2:06.2
+VS9 (Tiger): 1:14.4
+VS10 (Pepper): 1:11.1
+5/11/24
+VS7 (Johnny): 1:11.9
+VS8 (Moon): 2:06.6
+VS9 (Tiger): 1:15.9
+VS10 (Pepper): 1:14.1
+5/12/24
+VS7 (Johnny): 1:13.2
+VS8 (Moon): 2:08.2
+VS9 (Tiger): 2:01.0
+VS10 (Pepper): 1:14.6
+5/13/24
+VS7 (Johnny): 1:14.1
+VS8 (Moon): 2:10.8
+VS9 (Tiger): 2:00.2
+VS10 (Pepper): 1:15.4
+5/14/24
+VS7 (Johnny): 1:14.8
+VS8 (Moon): 2:11.4
+VS9 (Tiger): 2:00.7
+VS10 (Pepper): 2:00.8
+5/15/24
+VS7 (Johnny): 2:00.3
+VS8 (Moon): 2:13.0
+VS9 (Tiger): 2:01.9
+VS10 (Pepper): 2:01.3
+5/16/24
+VS7 (Johnny): 2:00.7
+VS8 (Moon): 2:12.4
+VS9 (Tiger): 2:01.8
+VS10 (Pepper): 2:02.9
+5/18/24
+VS7 (Johnny): 2:03.0
+VS8 (Moon): 2:15.2
+VS9 (Tiger): 2:04.9
+VS10 (Pepper): 2:04.6
+
+
+Mom & 2 kittens 12/23/23
+12/24/23
+Titan (orange): 15.5
+Poseidon (grey): 11.5
+Mom (Artemis): 4:13.5
+12/25/23
+Titan: 1:01.5
+Poseidon: 11.5
+Artemis: 4:14.5
+12/26/23
+Titan: 1:02.5
+Poseidon: 11.5
+Artemis: 5:00.5
+12/27/23
+Titan: 1:02.5
+Poseidon: 12.0
+Artemis: 5:03.5
+12/28/23
+Titan: 1:03.0
+Poseidon: 12.5
+Artemis: 5:02.5
+12/29/23
+Titan: 1:03.5
+Poseidon: 12.5
+Artemis: 5:02.0
+12/31/23
+Titan: 1:03.5
+Poseidon: 12.5
+1/1/24
+Titan: 1:04.5
+Poseidon: 12.0
+1/2/24
+Titan: 1:05.0
+Poseidon: 12.5
+Artemis: 5:01.0
+1/3/24
+Titan: 12.5 (likely a typo for 1:12.5)
+Poseidon: 1:05.5
+Artemis: 5:02.5
+1/4/24
+Titan: 1:07.0
+Poseidon: 13.0
+Artemis: 5:04.0
+1/7/24
+Titan: 1:09.0
+Poseidon: 15.0
+Artemis: 5:07.5
+1/8/24
+Titan: 1:10.0
+Poseidon: 1:00.5
+Artemis: 5:07.5
+1/9/24
+Titan: 1:10.0
+Poseidon: 1:01.5
+Artemis: 5:08.0
+1/10/24
+Titan: 1:10.5
+Poseidon: 1:02.0
+Artemis: 5:08.5
+1/11/24
+Titan: 1:10.0
+Poseidon: 1:01.5
+Artemis: 5:09.5
+1/13/24
+Titan: 1:12.5
+Poseidon: 1:04.5
+Artemis: 5:09.0
+1/14/24
+Titan: 1:14.0
+Poseidon: 1:05.5
+Artemis: 5:10.0
+1/15/24
+Titan: 1:15.0
+Poseidon: 1:06.0
+Artemis: 5:08.5
+1/16/24
+Titan: 2:00.5
+Poseidon: 1:06.5
+Artemis: 5:09.5
+1/17/24
+Titan: 2:01.5
+Poseidon: 1:07.5
+Artemis: 5:09.5
+1/18/24
+Titan: 2:02.5
+Poseidon: 1:08.0
+Artemis: 5:09.0
+1/19/24
+Titan: 2:03.5
+Poseidon: 1:07.5
+Artemis: 5:09.0
+1/20/24
+Titan: 2:04.5
+Poseidon: 1:07.5
+Artemis: 5:08.0
+1/25/24
+Titan: 2:06.5
+Poseidon: 1:09.0
+1/26/24
+Titan: 2:07.5
+Poseidon: 1:09.5
+1/27/24
+Titan: 2:08.0
+Poseidon: 1:11.0
+1/28/24
+Titan: 2:09.5
+Poseidon: 1:12.0
+1/30/24
+Titan: 2:12.0
+Poseidon: 1:13.0
+2/1/24
+Titan: 2:14.5
+Poseidon: 1:15.0
+2/2/24
+Titan: 2:15.0
+Poseidon: 2:00.0
+2/5/24
+Titan: 3:03.0
+Poseidon: 2:01.5
+
+
+Sparrow 11/14/23
+11/15/23
+1:00.6
+11/16/23
+1:01.1
+11/17/23
+1:01.6
+11/18/23
+1:01.7
+11/19/23
+1:02.6
+11/20/23
+1:02.8
+11/21/23
+1:03.2
+11/22/23
+1:04.1
+11/23/23
+1:04.4
+1:04.9
+11/24/23
+1:05.0
+11/25/23
+1:06.2
+11/27/23
+1:06.8
+1:07.4
+12/1/23
+1:09.8
+
+
+Kittens 8/26/23
+8/26/23
+Hazel (F): 1:05.3
+Aspen (M): 1:06.2
+Ash (F): 1:10.3
+Oak (M): 1:08.7
+8/27/23
+Hazel: 1:05.6
+Aspen: 1:06.2
+Ash: 1:10.2
+Oak: 1:10.0
+8/28/23
+Hazel: 1:05.2
+Aspen: 1:06.9
+Ash: 1:09.2
+Oak: 1:09.9
+8/29/23
+Hazel: 1:05.2
+Aspen: 1:08.0
+Ash: 1:08.3
+Oak: 1:09.4
+8/30/23
+Hazel: 1:05.1
+Aspen: 1:09.1
+Ash: 1:07.6
+Oak: 1:09.4
+8/31/23
+Hazel: 1:04.7
+Aspen: 1:10.8
+Ash: 1:07.5
+Oak: 1:09.4
+9/1/23
+Hazel: 1:05.7
+Aspen: 1:11.3
+Ash: 1:08.4
+Oak: 1:08.8
+9/2/23
+Hazel: 1:08.7
+Aspen: 1:12.7
+Ash: 1:11.9
+Oak: 1:10.2
+9/3/23
+Hazel: 1:10.0
+Aspen: 1:13.8
+Ash: 1:12.4
+Oak: 1:12.1
+9/4/23
+Hazel: 1:10.2
+Aspen: 1:14.5
+Ash: 1:13.7
+Oak: 1:13.7
+9/5/23
+Hazel: 1:11.2
+Aspen: 1:15.1
+Ash: 1:14.8
+Oak: 1:14.4
+9/6/23
+Hazel: 1:13.7
+Aspen: 2:00.6
+Ash: 2:00.6
+Oak: 2:00.5
+9/7/23
+Hazel: 1:15.3
+Aspen: 2:00.9
+Ash: 2:02.5
+Oak: 2:01.3
+9/8/23
+Hazel: 1:15.3
+Aspen: 2:01.2
+Ash: 2:02.9
+Oak: 2:03.0
+
+
+Glimmer & Shimmer 7/29/23
+7/30/23
+Glimmer: 1:09.5
+Shimmer: 1:02.1
+7/31/23
+Glimmer: 1:09.0
+Shimmer: 1:01.0
+8/1/23
+Glimmer: 1:08.1
+Shimmer: 1:00.3
+8/2/23
+Glimmer: 1:07.7
+Shimmer: 1:00.0
+8/3/23
+Glimmer: 1:07.7
+Shimmer: 15.6
+8/4/23
+Glimmer: 1:08.6
+Shimmer: 15.0
+8/5/23
+Glimmer: 1:08.4
+Shimmer: 13.6
+8/6/23
+Glimmer: 1:07.8
+Shimmer: 1:08.2
+8/7/23
+Glimmer: 1:08.3
+8/9/23
+Glimmer: 1:09.6
+8/10/23
+Glimmer: 1:11.1
+8/11/23
+Glimmer: 1:12.5
+
+
+Mom & 4 kittens 6/24/24 - 8/9/24
+6/27/24
+Raf (Grey): 11.4
+6/28/24
+Raf (Grey): 11.7
+Michael (Orange Buff): 10.2
+Lea (Lighter Buff): 10.2
+Dona (Buff): 11.0
+6/30/24
+April (mom): 9 lb 8 oz
+Raf: 13.2
+Michael: 11.4
+Lea: 11.3
+Dona: 12.1
+7/1/24
+April: 9 lb 10 oz
+Raf: 13.5
+Michael: 11.7
+Lea: 12.0
+Dona: 12.6
+7/3/24
+April: 9 lb 15.5 oz
+Raf: 14.4
+Michael: 12.7
+Lea: 12.7
+Dona: 13.8
+7/8/24
+April: 9 lb 8.5 oz
+Raf: 1 lb 2.1 oz
+Michael: 15.6 oz
+Lea: 15.9 oz
+Dona: 1 lb 0.8 oz
+7/11/24
+April: 8 lb 13.5 oz
+Raf: 1 lb 4.8 oz
+Michael: 1 lb 2.3 oz
+Lea: 1 lb 2.3 oz
+Dona: 1 lb 3.7 oz
+7/14/24
+April: 9 lb 0 oz (second reading logged that day, used as day's value)
+Raf: 1 lb 7.3 oz
+Michael: 1 lb 4.7 oz
+Lea: 1 lb 4.7 oz
+Dona: 1 lb 6.3 oz
+7/19/24
+April: 8 lb 13 oz
+Raf: 1 lb 9.7 oz
+Michael: 1 lb 6.3 oz
+Lea: 1 lb 6.3 oz
+Dona: 1 lb 8.0 oz
+7/23/24
+April: 8 lb 13 oz
+Raf: 1 lb 12.3 oz
+Michael: 1 lb 8.5 oz
+Lea: 1 lb 8.6 oz
+Dona: 1 lb 10.6 oz
+7/28/24
+April: 9 lb 6.5 oz
+Raf: 1 lb 14.9 oz
+Michael: 1 lb 10.5 oz
+Lea: 1 lb 11.9 oz
+Dona: 1 lb 13.8 oz
+8/2/24
+April: 9 lb 13.5 oz
+Raf: 2 lb 2.3 oz
+Michael: 1 lb 13.3 oz
+Lea: 1 lb 14.5 oz
+Dona: 2 lb 0.6 oz
+8/4/24
+April: 9 lb 13.5 oz
+Raf: 2 lb 5.4 oz
+Michael: 1 lb 15.1 oz
+Lea: 2 lb 0.0 oz
+Dona: 2 lb 1.8 oz
+8/9/24
+April: 9 lb 10.5 oz
+Raf: 2 lb 10.8 oz
+Michael: 2 lb 3.5 oz
+Lea: 2 lb 3.8 oz
+Dona: 2 lb 7.3 oz

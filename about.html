@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About & Support — Kitten Kottage</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand"><span class="paw">🐾</span> Kitten Kottage</div>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="litters.html">Litters</a>
+    <a href="about.html" class="active">About &amp; Support</a>
+  </nav>
+</header>
+
+<main>
+  <h1>About This Foster Diary</h1>
+  <p>
+    This site tracks every foster kitten (and nursing mom) who has come through our home since 2023 —
+    arrival dates, daily weigh-ins, and food preferences along the way. It started as a personal
+    record-keeping habit and grew into this little archive.
+  </p>
+  <p>
+    We foster through <a href="https://www.green-hill.org/" target="_blank" rel="noopener">Greenhill Humane Society</a>,
+    a Eugene-area nonprofit shelter that provides the medical care, supplies, and support that make this possible.
+  </p>
+
+  <section>
+    <h2>Support Foster Care</h2>
+    <p>Fostering is made possible by local shelters and rescues who provide medical care, supplies, and support. If you'd like to help kittens like these, consider:</p>
+    <div class="card-grid">
+      <div class="litter-card">
+        <div class="body">
+          <span class="badge">Donate</span>
+          <h3>Give Supplies or Funds</h3>
+          <p style="color:var(--ink-soft); font-size:0.9rem;">Formula, food, and vet visits add up fast. Every bit helps the next litter — give directly to <a href="https://www.green-hill.org/" target="_blank" rel="noopener">Greenhill Humane Society</a>, who we foster through.</p>
+          <a class="btn" href="https://www.green-hill.org/donate/" target="_blank" rel="noopener">Donate to Greenhill</a>
+        </div>
+      </div>
+      <div class="litter-card">
+        <div class="body">
+          <span class="badge">Adopt</span>
+          <h3>Adopt a Graduate</h3>
+          <p style="color:var(--ink-soft); font-size:0.9rem;">Most of the kittens featured here have found their forever homes through local shelters.</p>
+        </div>
+      </div>
+      <div class="litter-card">
+        <div class="body">
+          <span class="badge">Foster</span>
+          <h3>Become a Foster</h3>
+          <p style="color:var(--ink-soft); font-size:0.9rem;">We foster through <a href="https://www.green-hill.org/" target="_blank" rel="noopener">Greenhill Humane Society</a> — reach out to them (or your local shelter) to ask about their foster program.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions about a specific litter, or want to share an update on an adopted kitten? Send a note:</p>
+    <form onsubmit="event.preventDefault(); document.getElementById('form-status').textContent='This is a demo form — no message was actually sent.';" style="max-width:420px; display:flex; flex-direction:column; gap:0.75rem;">
+      <label>
+        Name
+        <input type="text" name="name" required style="width:100%; padding:0.5rem; border-radius:8px; border:1px solid var(--line); margin-top:0.2rem;">
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required style="width:100%; padding:0.5rem; border-radius:8px; border:1px solid var(--line); margin-top:0.2rem;">
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="4" required style="width:100%; padding:0.5rem; border-radius:8px; border:1px solid var(--line); margin-top:0.2rem;"></textarea>
+      </label>
+      <button class="btn" type="submit" style="align-self:flex-start;">Send</button>
+      <div id="form-status" style="font-size:0.85rem; color:var(--ink-soft);"></div>
+    </form>
+  </section>
+</main>
+
+<footer>
+  Foster diary maintained with love. All kittens have gone on to their forever homes (or are working on it). 🐾<br>Fostered through <a href="https://www.green-hill.org/" target="_blank" rel="noopener">Greenhill Humane Society</a>.
+</footer>
+
+</body>
+</html>

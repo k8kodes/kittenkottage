@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kitten Kottage — Foster Kitten Diary</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand"><span class="paw">🐾</span> Kitten Kottage</div>
+  <nav class="site-nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="litters.html">Litters</a>
+    <a href="about.html">About &amp; Support</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Tiny fosters, big weight gains.</h1>
+  <p>A running diary of every foster kitten (and mama cat) who's passed through our home — arrival dates, daily weigh-ins, and the little details in between.</p>
+  <div class="cta-row">
+    <a class="btn" href="calendar.html">View the Calendar</a>
+    <a class="btn secondary" href="litters.html">Meet the Litters</a>
+  </div>
+</div>
+
+<main>
+  <section id="stats">
+    <div class="stats-row" id="stats-row"></div>
+  </section>
+
+  <section>
+    <h2>Currently Fostering</h2>
+    <div class="card-grid" id="current-litter-card"></div>
+  </section>
+
+  <section>
+    <h2>Recent Graduates</h2>
+    <div class="card-grid" id="recent-litters"></div>
+  </section>
+</main>
+
+<footer>
+  Foster diary maintained with love. All kittens have gone on to their forever homes (or are working on it). 🐾<br>Fostered through <a href="https://www.green-hill.org/" target="_blank" rel="noopener">Greenhill Humane Society</a>.
+</footer>
+
+<script src="js/kittens-data.js?v=5"></script>
+<script src="js/photos-data.js?v=5"></script>
+<script src="js/photos-extra.js?v=5"></script>
+<script src="js/photo-overrides.js?v=5"></script>
+<script src="js/utils.js?v=5"></script>
+<script>
+(function () {
+  const totalLitters = KITTENS_DATA.length;
+  const totalKittens = KITTENS_DATA.reduce((sum, b) => sum + b.kittens.length, 0);
+  const totalMoms = KITTENS_DATA.filter(b => b.mom).length;
+  const totalWeighIns = KITTENS_DATA.reduce((sum, b) => {
+    const kitCount = b.kittens.reduce((s, k) => s + k.weights.length, 0);
+    const momCount = b.mom ? b.mom.weights.length : 0;
+    return sum + kitCount + momCount;
+  }, 0);
+
+  const earliestArrival = KITTENS_DATA.reduce((min, b) => b.arrival < min ? b.arrival : min, KITTENS_DATA[0].arrival);
+  const fosteringLabel = formatDuration(new Date(earliestArrival + "T00:00:00"), new Date());
+
+  document.getElementById("stats-row").innerHTML = `
+    <div class="stat-card"><div class="num">${fosteringLabel}</div><div class="label">Fostering Since ${new Date(earliestArrival + "T00:00:00").getFullYear()}</div></div>
+    <div class="stat-card"><div class="num">${totalLitters}</div><div class="label">Litters Fostered</div></div>
+    <div class="stat-card"><div class="num">${totalKittens}</div><div class="label">Kittens</div></div>
+    <div class="stat-card"><div class="num">${totalMoms}</div><div class="label">Nursing Moms</div></div>
+    <div class="stat-card"><div class="num">${totalWeighIns}</div><div class="label">Weigh-Ins Logged</div></div>
+  `;
+
+  const sorted = [...KITTENS_DATA].sort((a, b) => b.arrival.localeCompare(a.arrival));
+  const current = sorted[0];
+  const rest = sorted.slice(1, 5);
+
+  function card(batch) {
+    const names = batch.kittens.map(k => k.name).join(", ");
+    const arrivalDate = new Date(batch.arrival + "T00:00:00").toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+    return `
+      <a class="litter-card" href="litter.html?id=${encodeURIComponent(batch.id)}" style="text-decoration:none;color:inherit;">
+        <div class="photo-row">${photoRow(batch.id, 3)}</div>
+        <div class="body">
+          <h3>${batch.label}</h3>
+          <div class="arrival-date">Arrived ${arrivalDate}</div>
+          <div class="kitten-names">${names}</div>
+        </div>
+      </a>`;
+  }
+
+  document.getElementById("current-litter-card").innerHTML = card(current);
+  document.getElementById("recent-litters").innerHTML = rest.map(card).join("");
+})();
+</script>
+</body>
+</html>
