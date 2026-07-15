@@ -1,15 +1,15 @@
 [
   {
     "id": "md-kittens-2026",
-    "label": "MD Kittens (4)",
+    "label": "The Breakfast Bunch",
     "arrival": "2026-07-14",
     "notes": [
-      "Not yet named."
+      "Awaiting names."
     ],
     "mom": null,
     "kittens": [
       {
-        "name": "MD Kit 1",
+        "name": "Kit 1",
         "sex": null,
         "color": "Orange Tabby",
         "weights": [
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "name": "MD Kit 2",
+        "name": "Kit 2",
         "sex": null,
         "color": "Orange Tabby (white thumbs)",
         "weights": [
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "name": "MD Kit 3",
+        "name": "Kit 3",
         "sex": null,
         "color": "Brown/Black Tabby",
         "weights": [
@@ -54,7 +54,7 @@
         ]
       },
       {
-        "name": "MD Kit 4",
+        "name": "Kit 4",
         "sex": null,
         "color": "Brown/Black Tabby (white on nose)",
         "weights": [

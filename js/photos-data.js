@@ -1,4 +1,13 @@
 const PHOTOS_MANIFEST = {
+  "md-kittens-2026": [
+    "2026-07-15_IMG_2632.jpeg",
+    "2026-07-15_IMG_2636.jpeg",
+    "2026-07-15_IMG_2637.jpeg",
+    "2026-07-15_IMG_2638.jpeg",
+    "2026-07-15_IMG_2639.jpeg",
+    "2026-07-15_IMG_2640.jpeg",
+    "2026-07-15_IMG_2641.jpeg"
+  ],
   "april-raf-michael-lea-dona": [
     "2024-06-25_IMG_8440.jpeg",
     "2024-06-25_IMG_8443.jpeg",
