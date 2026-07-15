@@ -17,6 +17,27 @@ def oz(x):
 # Each batch: id, label, arrival date, optional mom, kittens (name/sex/color/weights), notes
 BATCHES = [
     {
+        "id": "md-kittens-2026",
+        "label": "MD Kittens (4)",
+        "arrival": "2026-07-14",
+        "notes": ["Not yet named."],
+        "mom": None,
+        "kittens": [
+            {"name": "MD Kit 1", "sex": None, "color": "Orange Tabby", "weights": [
+                ("2026-07-14", lb(1.69)), ("2026-07-15", lb(1.675)),
+            ]},
+            {"name": "MD Kit 2", "sex": None, "color": "Orange Tabby (white thumbs)", "weights": [
+                ("2026-07-14", lb(1.53)), ("2026-07-15", lb(1.55)),
+            ]},
+            {"name": "MD Kit 3", "sex": None, "color": "Brown/Black Tabby", "weights": [
+                ("2026-07-14", lb(1.5)), ("2026-07-15", lb(1.50)),
+            ]},
+            {"name": "MD Kit 4", "sex": None, "color": "Brown/Black Tabby (white on nose)", "weights": [
+                ("2026-07-14", lb(1.34)), ("2026-07-15", lb(1.470)),
+            ]},
+        ],
+    },
+    {
         "id": "april-raf-michael-lea-dona",
         "label": "April & Kittens (Raf, Michael, Lea & Dona)",
         "arrival": "2024-06-24",

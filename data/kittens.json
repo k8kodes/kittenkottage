@@ -1,5 +1,76 @@
 [
   {
+    "id": "md-kittens-2026",
+    "label": "MD Kittens (4)",
+    "arrival": "2026-07-14",
+    "notes": [
+      "Not yet named."
+    ],
+    "mom": null,
+    "kittens": [
+      {
+        "name": "MD Kit 1",
+        "sex": null,
+        "color": "Orange Tabby",
+        "weights": [
+          {
+            "date": "2026-07-14",
+            "oz": 27.04
+          },
+          {
+            "date": "2026-07-15",
+            "oz": 26.8
+          }
+        ]
+      },
+      {
+        "name": "MD Kit 2",
+        "sex": null,
+        "color": "Orange Tabby (white thumbs)",
+        "weights": [
+          {
+            "date": "2026-07-14",
+            "oz": 24.48
+          },
+          {
+            "date": "2026-07-15",
+            "oz": 24.8
+          }
+        ]
+      },
+      {
+        "name": "MD Kit 3",
+        "sex": null,
+        "color": "Brown/Black Tabby",
+        "weights": [
+          {
+            "date": "2026-07-14",
+            "oz": 24.0
+          },
+          {
+            "date": "2026-07-15",
+            "oz": 24.0
+          }
+        ]
+      },
+      {
+        "name": "MD Kit 4",
+        "sex": null,
+        "color": "Brown/Black Tabby (white on nose)",
+        "weights": [
+          {
+            "date": "2026-07-14",
+            "oz": 21.44
+          },
+          {
+            "date": "2026-07-15",
+            "oz": 23.52
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "april-raf-michael-lea-dona",
     "label": "April & Kittens (Raf, Michael, Lea & Dona)",
     "arrival": "2024-06-24",
