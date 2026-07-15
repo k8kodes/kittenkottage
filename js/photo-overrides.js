@@ -56,4 +56,11 @@ const PHOTO_OVERRIDES = {
       "2023-08-01_IMG_3381.jpeg",
     ],
   },
+  "md-kittens-2026": {
+    coverOrder: [
+      "2026-07-15_IMG_2632.jpeg",
+      "2026-07-15_IMG_2636.jpeg",
+      "2026-07-15_IMG_2640.jpeg",
+    ],
+  },
 };
