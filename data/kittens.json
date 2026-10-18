@@ -5478,7 +5478,12 @@
           "date": "2024-01-20",
           "oz": 88.0
         }
-      ]
+      ],
+      "grownUp": {
+        "name": "Olive",
+        "photo": "olive-adult.jpeg",
+        "text": "Artemis was adopted by a friend and is now Olive."
+      }
     },
     "kittens": [
       {

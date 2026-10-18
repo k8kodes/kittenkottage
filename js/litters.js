@@ -47,6 +47,7 @@ function renderLitterDetail() {
 
   if (batch.mom) {
     html += kittenCard(batch.mom.name, null, null, batch.mom.weights, "#f4a6b7", true);
+    if (batch.mom.grownUp) html += grownUpCard(batch.id, batch.mom);
   }
   batch.kittens.forEach(k => {
     const inMemory = batch.memorial && batch.memorial.name === k.name ? batch.memorial.date : null;
@@ -58,13 +59,13 @@ function renderLitterDetail() {
   container.innerHTML = html;
 }
 
-// Follow-up card for a kitten who was adopted and has a new name and adult photo.
-function grownUpCard(batchId, kitten) {
-  const g = kitten.grownUp;
+// Follow-up card for a kitten or mom who was adopted and has a new name and photo.
+function grownUpCard(batchId, cat) {
+  const g = cat.grownUp;
   const photo = g.photo ? `<img src="images/${batchId}/${encodeURIComponent(g.photo)}" alt="${escapeHtml(g.name)}, grown up">` : "";
   return `
     <div class="kitten-detail-card grown-up">
-      <h4>🐱 ${escapeHtml(g.name)} (formerly ${escapeHtml(kitten.name)})</h4>
+      <h4>🐱 ${escapeHtml(g.name)} (formerly ${escapeHtml(cat.name)})</h4>
       ${photo}
       <div class="meta">${escapeHtml(g.text)}</div>
     </div>`;

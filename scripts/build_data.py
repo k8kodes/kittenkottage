@@ -678,7 +678,11 @@ BATCHES = [
         "label": "Artemis & Kittens (Titan & Poseidon)",
         "arrival": "2023-12-23",
         "notes": [],
-        "mom": {"name": "Artemis", "weights": [
+        "mom": {"name": "Artemis", "grownUp": {
+            "name": "Olive",
+            "photo": "olive-adult.jpeg",
+            "text": "Artemis was adopted by a friend and is now Olive.",
+        }, "weights": [
             ("2023-12-24", lb(4, 13.5)), ("2023-12-25", lb(4, 14.5)), ("2023-12-26", lb(5, 0.5)),
             ("2023-12-27", lb(5, 3.5)), ("2023-12-28", lb(5, 2.5)), ("2023-12-29", lb(5, 2.0)),
             ("2024-01-02", lb(5, 1.0)), ("2024-01-03", lb(5, 2.5)), ("2024-01-04", lb(5, 4.0)),
@@ -815,6 +819,8 @@ def build():
             batch["memorial"] = b["memorial"]
         if b["mom"]:
             batch["mom"] = {"name": b["mom"]["name"], "weights": to_records(b["mom"]["weights"])}
+            if b["mom"].get("grownUp"):
+                batch["mom"]["grownUp"] = b["mom"]["grownUp"]
         for k in b["kittens"]:
             kitten = {
                 "name": k["name"],
