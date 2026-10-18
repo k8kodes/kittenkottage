@@ -79,7 +79,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
 }
 .hero h1 { font-size: 2.4rem; margin: 0 0 0.5rem; }
 .hero p { max-width: 560px; margin: 0 auto; color: var(--ink-soft); font-size: 1.05rem; }
-.hero-donate { margin-bottom: 1.25rem; }
+.hero-pills { margin-bottom: 1.25rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
 .hero-photo {
   display: block;
   width: 100%;
@@ -88,7 +88,6 @@ main { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
   border-radius: var(--radius);
   box-shadow: var(--card-shadow);
 }
-.hero .cta-row { margin-top: 1.5rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
 
 .btn {
   display: inline-block;
