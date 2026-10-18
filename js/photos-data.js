@@ -1,4 +1,10 @@
 const PHOTOS_MANIFEST = {
+  "kr-kittens-2026": [
+    "2026-10-13_IMG_4258.jpeg",
+    "2026-10-13_IMG_4273.jpeg",
+    "2026-10-15_IMG_4302.jpeg",
+    "2026-10-16_IMG_4304.jpeg"
+  ],
   "cribbage-litter": [
     "2026-08-08_IMG_2854.jpeg",
     "2026-08-08_IMG_2866.jpeg",

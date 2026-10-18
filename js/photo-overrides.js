@@ -56,6 +56,13 @@ const PHOTO_OVERRIDES = {
       "2023-08-01_IMG_3381.jpeg",
     ],
   },
+  "kr-kittens-2026": {
+    coverOrder: [
+      "2026-10-13_IMG_4258.jpeg",
+      "2026-10-15_IMG_4302.jpeg",
+      "2026-10-16_IMG_4304.jpeg",
+    ],
+  },
   "cribbage-litter": {
     momPhoto: "2026-08-10_IMG_2900.jpeg",
     coverOrder: [
