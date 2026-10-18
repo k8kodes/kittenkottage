@@ -6170,13 +6170,14 @@ const KITTENS_DATA = [
           {
             "date": "2023-08-05",
             "oz": 13.6
-          },
-          {
-            "date": "2023-08-06",
-            "oz": 24.2
           }
         ]
       }
-    ]
+    ],
+    "memorial": {
+      "name": "Shimmer",
+      "date": "2023-08-06",
+      "text": "Shimmer passed away on August 6, 2023."
+    }
   }
 ];

@@ -771,6 +771,11 @@ BATCHES = [
         "label": "Glimmer & Shimmer",
         "arrival": "2023-07-29",
         "notes": [],
+        "memorial": {
+            "name": "Shimmer",
+            "date": "2023-08-06",
+            "text": "Shimmer passed away on August 6, 2023.",
+        },
         "mom": None,
         "kittens": [
             {"name": "Glimmer", "sex": None, "color": None, "weights": [
@@ -782,7 +787,7 @@ BATCHES = [
             {"name": "Shimmer", "sex": None, "color": None, "weights": [
                 ("2023-07-30", lb(1, 2.1)), ("2023-07-31", lb(1, 1.0)), ("2023-08-01", lb(1, 0.3)),
                 ("2023-08-02", lb(1, 0.0)), ("2023-08-03", oz(15.6)), ("2023-08-04", oz(15.0)),
-                ("2023-08-05", oz(13.6)), ("2023-08-06", lb(1, 8.2)),
+                ("2023-08-05", oz(13.6)),
             ]},
         ],
     },

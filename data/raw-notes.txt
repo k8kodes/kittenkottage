@@ -1296,7 +1296,6 @@ Glimmer: 1:08.4
 Shimmer: 13.6
 8/6/23
 Glimmer: 1:07.8
-Shimmer: 1:08.2
 8/7/23
 Glimmer: 1:08.3
 8/9/23
