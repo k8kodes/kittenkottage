@@ -4,14 +4,13 @@ function renderGallery() {
   const sorted = [...KITTENS_DATA].sort((a, b) => b.arrival.localeCompare(a.arrival));
   container.innerHTML = sorted.map(batch => {
     const names = batch.kittens.map(k => k.name).join(", ");
-    const arrivalDate = new Date(batch.arrival + "T00:00:00").toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
     const total = batch.kittens.length + (batch.mom ? 1 : 0);
     return `
       <a class="litter-card" href="litter.html?id=${encodeURIComponent(batch.id)}" style="text-decoration:none;color:inherit;">
         <div class="photo-row">${photoRow(batch.id, total)}</div>
         <div class="body">
           <h3>${escapeHtml(batch.label)}</h3>
-          <div class="arrival-date">Arrived ${arrivalDate} &middot; ${stayLabel(batch)}</div>
+          <div class="arrival-date">${kottageLine(batch)}</div>
           <div class="kitten-names">${escapeHtml(names)}${batch.mom ? ` &middot; with mom ${escapeHtml(batch.mom.name)}` : ""}</div>
         </div>
       </a>`;

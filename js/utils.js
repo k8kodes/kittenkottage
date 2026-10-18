@@ -25,18 +25,46 @@ function formatDuration(from, to) {
   return parts.join(", ");
 }
 
-// Days the longest-staying kitten was with us: arrival to that kitten's last weigh-in.
-// A litter weighed within the last day or so is still here, so it reads "Fostering".
-function stayLabel(batch) {
+// Stay window for a litter: arrival to the longest-staying kitten's last weigh-in
+// (the data has no departure date, so the last weigh-in stands in for it). A litter
+// weighed within the last day or so is still here.
+function stayInfo(batch) {
   const toDay = s => Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10));
-  const lastWeighIn = batch.kittens.flatMap(k => k.weights.map(w => w.date)).sort().pop();
-  if (!lastWeighIn) return "";
-  const days = Math.round((toDay(lastWeighIn) - toDay(batch.arrival)) / 86400000);
+  const end = batch.kittens.flatMap(k => k.weights.map(w => w.date)).sort().pop();
+  if (!end) return null;
   const now = new Date();
   const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-  const active = (today - toDay(lastWeighIn)) / 86400000 <= 1;
-  const unit = days === 1 ? "day" : "days";
-  return `${active ? "Fostering" : "Stayed"} ${days} ${unit}`;
+  return {
+    start: batch.arrival,
+    end,
+    days: Math.round((toDay(end) - toDay(batch.arrival)) / 86400000),
+    active: (today - toDay(end)) / 86400000 <= 1,
+  };
+}
+
+function stayLabel(batch) {
+  const info = stayInfo(batch);
+  if (!info) return "";
+  const days = `${info.days} ${info.days === 1 ? "day" : "days"}`;
+  return info.active ? `${days} so far` : `Stayed ${days}`;
+}
+
+// "At the Kottage August 6 to September 27, 2026 · Stayed 52 days" for litter cards;
+// a litter still here reads "In residence since October 12, 2026 · 5 days so far".
+function kottageLine(batch) {
+  const info = stayInfo(batch);
+  if (!info) return "";
+  const fmt = (s, opts) => new Date(s + "T00:00:00").toLocaleDateString(undefined, opts);
+  const full = { year: "numeric", month: "long", day: "numeric" };
+  let when;
+  if (info.active) {
+    return `In residence since ${fmt(info.start, full)} &middot; ${stayLabel(batch)}`;
+  } else if (info.start.slice(0, 4) === info.end.slice(0, 4)) {
+    when = `${fmt(info.start, { month: "long", day: "numeric" })} to ${fmt(info.end, full)}`;
+  } else {
+    when = `${fmt(info.start, full)} to ${fmt(info.end, full)}`;
+  }
+  return `At the Kottage ${when} &middot; ${stayLabel(batch)}`;
 }
 
 // Builds date -> { arrivals: [{batchId,label}], weighIns: [{batchId,label,name,oz,isMom}] }
