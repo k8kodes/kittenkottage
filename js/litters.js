@@ -41,34 +41,37 @@ function renderLitterDetail() {
       </div>
     </div>
     ${memorialSection(batch)}
+    ${adoptionSections(batch)}
     ${fullGallery(batch.id)}
     <section>
   `;
 
   if (batch.mom) {
     html += kittenCard(batch.mom.name, null, null, batch.mom.weights, "#f4a6b7", true);
-    if (batch.mom.grownUp) html += grownUpCard(batch.id, batch.mom);
   }
   batch.kittens.forEach(k => {
     const inMemory = batch.memorial && batch.memorial.name === k.name ? batch.memorial.date : null;
     html += kittenCard(k.name, k.sex, k.color, k.weights, "#4f9e8a", false, inMemory);
-    if (k.grownUp) html += grownUpCard(batch.id, k);
   });
 
   html += `</section>`;
   container.innerHTML = html;
 }
 
-// Follow-up card for a kitten or mom who was adopted and has a new name and photo.
-function grownUpCard(batchId, cat) {
-  const g = cat.grownUp;
-  const photo = g.photo ? `<img src="images/${batchId}/${encodeURIComponent(g.photo)}" alt="${escapeHtml(g.name)}, grown up">` : "";
-  return `
-    <div class="kitten-detail-card grown-up">
-      <h4>🐱 ${escapeHtml(g.name)} (formerly ${escapeHtml(cat.name)})</h4>
+// Tiles for cats from this litter who were adopted and have a new name and photo.
+function adoptionSections(batch) {
+  return (batch.adoptions || []).map(a => {
+    const photo = a.photo ? `<img src="images/${batch.id}/${encodeURIComponent(a.photo)}" alt="${escapeHtml(a.name)}, all grown up">` : "";
+    return `
+    <section class="memorial adoption">
       ${photo}
-      <div class="meta">${escapeHtml(g.text)}</div>
-    </div>`;
+      <div>
+        <span class="badge">Adopted</span>
+        <h2>${escapeHtml(a.name)} (formerly ${escapeHtml(a.was)})</h2>
+        <p>${escapeHtml(a.text)}</p>
+      </div>
+    </section>`;
+  }).join("");
 }
 
 // Tribute for a kitten we lost, shown at the top of the litter page.

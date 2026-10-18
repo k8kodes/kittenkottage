@@ -344,4 +344,5 @@ footer {
   .memorial img { width: 100%; height: auto; max-height: 260px; }
 }
 
-.grown-up img { display: block; width: 100%; max-width: 320px; border-radius: 12px; margin: 0.5rem 0; }
+.adoption { background: #e8f6f1; }
+.adoption .badge { margin-bottom: 0.4rem; }

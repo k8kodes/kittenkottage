@@ -1718,12 +1718,7 @@ const KITTENS_DATA = [
             "date": "2024-08-09",
             "oz": 35.8
           }
-        ],
-        "grownUp": {
-          "name": "Nami",
-          "photo": "nami-adult.jpeg",
-          "text": "Lea was adopted by a friend and is now Nami."
-        }
+        ]
       },
       {
         "name": "Dona",
@@ -1783,6 +1778,14 @@ const KITTENS_DATA = [
             "oz": 39.3
           }
         ]
+      }
+    ],
+    "adoptions": [
+      {
+        "was": "Lea",
+        "name": "Nami",
+        "photo": "nami-adult.jpeg",
+        "text": "Lea was adopted by a friend and is now Nami."
       }
     ]
   },
@@ -5478,12 +5481,7 @@ const KITTENS_DATA = [
           "date": "2024-01-20",
           "oz": 88.0
         }
-      ],
-      "grownUp": {
-        "name": "Olive",
-        "photo": "olive-adult.jpeg",
-        "text": "Artemis was adopted by a friend and is now Olive."
-      }
+      ]
     },
     "kittens": [
       {
@@ -5751,6 +5749,14 @@ const KITTENS_DATA = [
             "oz": 33.5
           }
         ]
+      }
+    ],
+    "adoptions": [
+      {
+        "was": "Artemis",
+        "name": "Olive",
+        "photo": "olive-adult.jpeg",
+        "text": "Artemis was adopted by a friend and is now Olive."
       }
     ]
   },

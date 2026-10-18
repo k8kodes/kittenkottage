@@ -174,6 +174,10 @@ BATCHES = [
         "id": "april-raf-michael-lea-dona",
         "label": "April & Kittens (Raf, Michael, Lea & Dona)",
         "arrival": "2024-06-24",
+        "adoptions": [
+            {"was": "Lea", "name": "Nami", "photo": "nami-adult.jpeg",
+             "text": "Lea was adopted by a friend and is now Nami."},
+        ],
         "notes": ["Named once everyone's colors were clear: Raf (grey), Michael (orange buff), Lea (lighter buff), and Dona (buff)."],
         "mom": {"name": "April", "weights": [
             ("2024-06-28", lb(9, 10)), ("2024-06-30", lb(9, 8)), ("2024-07-01", lb(9, 10)),
@@ -197,11 +201,7 @@ BATCHES = [
                 ("2024-07-28", lb(1, 10.5)), ("2024-08-02", lb(1, 13.3)), ("2024-08-04", lb(1, 15.1)),
                 ("2024-08-09", lb(2, 3.5)),
             ]},
-            {"name": "Lea", "sex": "F", "color": "Lighter Buff", "grownUp": {
-                "name": "Nami",
-                "photo": "nami-adult.jpeg",
-                "text": "Lea was adopted by a friend and is now Nami.",
-            }, "weights": [
+            {"name": "Lea", "sex": "F", "color": "Lighter Buff", "weights": [
                 ("2024-06-28", oz(10.2)), ("2024-06-30", oz(11.3)), ("2024-07-01", oz(12.0)),
                 ("2024-07-03", oz(12.7)), ("2024-07-08", oz(15.9)), ("2024-07-11", lb(1, 2.3)),
                 ("2024-07-14", lb(1, 4.7)), ("2024-07-19", lb(1, 6.3)), ("2024-07-23", lb(1, 8.6)),
@@ -677,12 +677,12 @@ BATCHES = [
         "id": "titan-poseidon",
         "label": "Artemis & Kittens (Titan & Poseidon)",
         "arrival": "2023-12-23",
+        "adoptions": [
+            {"was": "Artemis", "name": "Olive", "photo": "olive-adult.jpeg",
+             "text": "Artemis was adopted by a friend and is now Olive."},
+        ],
         "notes": [],
-        "mom": {"name": "Artemis", "grownUp": {
-            "name": "Olive",
-            "photo": "olive-adult.jpeg",
-            "text": "Artemis was adopted by a friend and is now Olive.",
-        }, "weights": [
+        "mom": {"name": "Artemis", "weights": [
             ("2023-12-24", lb(4, 13.5)), ("2023-12-25", lb(4, 14.5)), ("2023-12-26", lb(5, 0.5)),
             ("2023-12-27", lb(5, 3.5)), ("2023-12-28", lb(5, 2.5)), ("2023-12-29", lb(5, 2.0)),
             ("2024-01-02", lb(5, 1.0)), ("2024-01-03", lb(5, 2.5)), ("2024-01-04", lb(5, 4.0)),
@@ -817,20 +817,17 @@ def build():
         }
         if b.get("memorial"):
             batch["memorial"] = b["memorial"]
+        if b.get("adoptions"):
+            batch["adoptions"] = b["adoptions"]
         if b["mom"]:
             batch["mom"] = {"name": b["mom"]["name"], "weights": to_records(b["mom"]["weights"])}
-            if b["mom"].get("grownUp"):
-                batch["mom"]["grownUp"] = b["mom"]["grownUp"]
         for k in b["kittens"]:
-            kitten = {
+            batch["kittens"].append({
                 "name": k["name"],
                 "sex": k.get("sex"),
                 "color": k.get("color"),
                 "weights": to_records(k["weights"]),
-            }
-            if k.get("grownUp"):
-                kitten["grownUp"] = k["grownUp"]
-            batch["kittens"].append(kitten)
+            })
         out.append(batch)
     return out
 
