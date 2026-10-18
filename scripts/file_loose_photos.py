@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-"""Moves loose photo files at the root of the Kitten Photos folder into
-date-named subfolders (matching the Photos-app export convention), based on
-each file's EXIF/content creation date. Skips files already in subfolders.
+"""Moves loose photo files into date-named subfolders of the Kitten Photos
+folder (matching the Photos-app export convention), based on each file's
+EXIF/content creation date, converted to local time.
+
+Usage: file_loose_photos.py ROOT [SOURCE_DIR ...]
+With no SOURCE_DIRs, files loose at the root of ROOT are filed. Pass one or
+more named subfolders (e.g. "Breakfast Bunch") to file their contents instead.
 """
 import sys, os, re, subprocess, shutil
 from datetime import datetime
@@ -18,9 +22,9 @@ def get_creation_date(path):
     ).stdout.strip()
     if not out or out == "(null)":
         return None
-    # e.g. "2024-01-20 03:07:15 +0000"
-    dt = datetime.strptime(out.split(" +")[0].split(" -")[0], "%Y-%m-%d %H:%M:%S")
-    return dt.date()
+    # e.g. "2024-01-20 03:07:15 +0000" (UTC); the shot's local date can differ
+    dt = datetime.strptime(out, "%Y-%m-%d %H:%M:%S %z")
+    return dt.astimezone().date()
 
 def main():
     root = sys.argv[1]
@@ -34,14 +38,18 @@ def main():
                 d = datetime.strptime(f"{month} {day} {year}", "%B %d %Y").date()
                 existing_date_folders.setdefault(d, entry)
 
-    loose_files = [f for f in os.listdir(root) if os.path.isfile(os.path.join(root, f)) and not f.startswith(".")]
+    source_dirs = [os.path.join(root, d) for d in sys.argv[2:]] or [root]
+    loose_files = [
+        (src, f) for src in source_dirs for f in sorted(os.listdir(src))
+        if os.path.isfile(os.path.join(src, f)) and not f.startswith(".")
+    ]
     moved, skipped, unknown = [], [], []
 
-    for f in sorted(loose_files):
+    for src, f in loose_files:
         if f in SKIP:
             skipped.append(f)
             continue
-        full = os.path.join(root, f)
+        full = os.path.join(src, f)
         d = get_creation_date(full)
         if d is None:
             unknown.append(f)
