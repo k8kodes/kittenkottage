@@ -66,7 +66,7 @@ const KITTENS_DATA = [
   },
   {
     "id": "cribbage-litter",
-    "label": "Cribbage & Crib Kits (Mini Fridge, Sausage, Cabbage, Porridge, Pillage, Cottage Cheese & Possage)",
+    "label": "Cribbage and 7 Kittens",
     "arrival": "2026-08-06",
     "notes": [
       "Mini Fridge was also known as Da Bean.",

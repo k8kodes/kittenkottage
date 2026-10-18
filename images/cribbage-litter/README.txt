@@ -1,1 +1,1 @@
-Drop photos for "Cribbage & Crib Kits" here.
+Drop photos for "Cribbage and 7 Kittens" here.
