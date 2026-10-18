@@ -6,7 +6,11 @@ const PHOTOS_MANIFEST = {
     "2026-07-15_IMG_2638.jpeg",
     "2026-07-15_IMG_2639.jpeg",
     "2026-07-15_IMG_2640.jpeg",
-    "2026-07-15_IMG_2641.jpeg"
+    "2026-07-15_IMG_2641.jpeg",
+    "2026-07-17_IMG_2661.jpeg",
+    "2026-07-18_IMG_2673.jpeg",
+    "2026-07-18_IMG_2676.jpeg",
+    "2026-07-27_IMG_2757.jpeg"
   ],
   "april-raf-michael-lea-dona": [
     "2024-06-25_IMG_8440.jpeg",
