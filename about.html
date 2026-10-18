@@ -65,7 +65,8 @@
   <section>
     <h2>Contact</h2>
     <p>Questions about a specific litter, or want to share an update on an adopted kitten? Send a note:</p>
-    <form onsubmit="event.preventDefault(); document.getElementById('form-status').textContent='This is a demo form — no message was actually sent.';" style="max-width:420px; display:flex; flex-direction:column; gap:0.75rem;">
+    <form id="contact-form" style="max-width:420px; display:flex; flex-direction:column; gap:0.75rem;">
+      <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none;">
       <label>
         Name
         <input type="text" name="name" required style="width:100%; padding:0.5rem; border-radius:8px; border:1px solid var(--line); margin-top:0.2rem;">
@@ -79,7 +80,7 @@
         <textarea name="message" rows="4" required style="width:100%; padding:0.5rem; border-radius:8px; border:1px solid var(--line); margin-top:0.2rem;"></textarea>
       </label>
       <button class="btn" type="submit" style="align-self:flex-start;">Send</button>
-      <div id="form-status" style="font-size:0.85rem; color:var(--ink-soft);"></div>
+      <div id="form-status" role="status" style="font-size:0.85rem; color:var(--ink-soft);"></div>
     </form>
   </section>
 </main>
@@ -87,6 +88,54 @@
 <footer>
   Foster diary maintained with love. All kittens have gone on to their forever homes (or are working on it). 🐾<br>Fostered through <a href="https://www.green-hill.org/" target="_blank" rel="noopener">Greenhill Humane Society</a>.
 </footer>
+
+<script>
+// Messages go through Web3Forms. The access key is public by design: it maps to the
+// destination inbox on their side, so the address itself never appears on this site.
+const WEB3FORMS_KEY = "PASTE_ACCESS_KEY_HERE";
+
+document.getElementById("contact-form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const status = document.getElementById("form-status");
+  const button = form.querySelector("button[type=submit]");
+
+  if (WEB3FORMS_KEY === "PASTE_ACCESS_KEY_HERE") {
+    status.textContent = "The contact form isn't switched on yet. Please check back soon.";
+    return;
+  }
+
+  button.disabled = true;
+  status.textContent = "Sending...";
+  try {
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({
+        access_key: WEB3FORMS_KEY,
+        subject: "New message from the Kitten Kottage website",
+        from_name: "Kitten Kottage",
+        name: form.name.value,
+        email: form.email.value,
+        message: form.message.value,
+        botcheck: form.botcheck.checked,
+      }),
+    });
+    const data = await res.json();
+    if (data.success) {
+      form.reset();
+      status.textContent = "Thanks! Your message was sent.";
+    } else {
+      status.textContent = "Sorry, that didn't go through. Please try again in a bit.";
+      console.warn("Web3Forms:", data.message);
+    }
+  } catch (err) {
+    status.textContent = "Sorry, that didn't go through. Please check your connection and try again.";
+  } finally {
+    button.disabled = false;
+  }
+});
+</script>
 
 </body>
 </html>
