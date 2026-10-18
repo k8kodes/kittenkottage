@@ -56,6 +56,13 @@ const PHOTO_OVERRIDES = {
       "2023-08-01_IMG_3381.jpeg",
     ],
   },
+  "iris-pete-nemo": {
+    coverOrder: [
+      "2026-07-01_IMG_2414.jpeg",
+      "2026-07-08_IMG_2573.jpeg",
+      "2026-07-10_IMG_2588.jpeg",
+    ],
+  },
   "kr-kittens-2026": {
     coverOrder: [
       "2026-10-13_IMG_4258.jpeg",

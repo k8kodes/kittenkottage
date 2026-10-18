@@ -82,8 +82,14 @@ const PHOTOS_MANIFEST = {
   ],
   "iris-pete-nemo": [
     "2026-07-01_IMG_2414.jpeg",
+    "2026-07-03_IMG_2437.jpeg",
+    "2026-07-06_IMG_2561.jpeg",
+    "2026-07-07_IMG_2564.jpeg",
+    "2026-07-07_IMG_2569.jpeg",
     "2026-07-08_IMG_2573.jpeg",
-    "2026-07-10_IMG_2588.jpeg"
+    "2026-07-09_IMG_2577.jpeg",
+    "2026-07-10_IMG_2588.jpeg",
+    "2026-07-11_IMG_2598.jpeg"
   ],
   "pascal-lovelace-euler-fibonacci": [
     "2026-05-11_IMG_1603.jpeg",
