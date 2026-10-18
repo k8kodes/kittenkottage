@@ -37,16 +37,16 @@ CRIB_HOME_DATES = [
 BATCHES = [
     {
         "id": "kr-kittens-2026",
-        "label": "KR Kittens (2)",
+        "label": "Gravity Falls",
         "arrival": "2026-10-12",
-        "notes": ["Not yet named."],
+        "notes": ["Named after the Gravity Falls twins: Mabel and Dipper."],
         "mom": None,
         "kittens": [
-            {"name": "KR Kit 1", "sex": "F", "color": "White", "weights": [
+            {"name": "Mabel", "sex": "F", "color": "White", "weights": [
                 ("2026-10-13", lb(1, 1.64)), ("2026-10-14", lb(1, 5.38)), ("2026-10-15", lb(1, 6.79)),
                 ("2026-10-16", lb(1, 5.91)), ("2026-10-17", lb(1, 6.1)),
             ]},
-            {"name": "KR Kit 2", "sex": "M", "color": "Tabby", "weights": [
+            {"name": "Dipper", "sex": "M", "color": "Tabby", "weights": [
                 ("2026-10-13", lb(1, 3.68)), ("2026-10-14", lb(1, 4.21)), ("2026-10-15", lb(1, 3.3)),
                 ("2026-10-16", lb(1, 2.3)), ("2026-10-17", lb(1, 2.8)),
             ]},

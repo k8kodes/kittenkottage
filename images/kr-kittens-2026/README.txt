@@ -1,1 +1,1 @@
-Drop photos for "KR Kittens (2)" here.
+Drop photos for "Gravity Falls" here.

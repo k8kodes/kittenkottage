@@ -1,15 +1,15 @@
 const KITTENS_DATA = [
   {
     "id": "kr-kittens-2026",
-    "label": "KR Kittens (2)",
+    "label": "Gravity Falls",
     "arrival": "2026-10-12",
     "notes": [
-      "Not yet named."
+      "Named after the Gravity Falls twins: Mabel and Dipper."
     ],
     "mom": null,
     "kittens": [
       {
-        "name": "KR Kit 1",
+        "name": "Mabel",
         "sex": "F",
         "color": "White",
         "weights": [
@@ -36,7 +36,7 @@ const KITTENS_DATA = [
         ]
       },
       {
-        "name": "KR Kit 2",
+        "name": "Dipper",
         "sex": "M",
         "color": "Tabby",
         "weights": [
