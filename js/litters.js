@@ -11,7 +11,7 @@ function renderGallery() {
         <div class="photo-row">${photoRow(batch.id, total)}</div>
         <div class="body">
           <h3>${escapeHtml(batch.label)}</h3>
-          <div class="arrival-date">Arrived ${arrivalDate}</div>
+          <div class="arrival-date">Arrived ${arrivalDate} &middot; ${stayLabel(batch)}</div>
           <div class="kitten-names">${escapeHtml(names)}${batch.mom ? ` &middot; with mom ${escapeHtml(batch.mom.name)}` : ""}</div>
         </div>
       </a>`;

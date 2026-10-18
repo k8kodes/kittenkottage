@@ -25,6 +25,20 @@ function formatDuration(from, to) {
   return parts.join(", ");
 }
 
+// Days the longest-staying kitten was with us: arrival to that kitten's last weigh-in.
+// A litter weighed within the last day or so is still here, so it reads "Fostering".
+function stayLabel(batch) {
+  const toDay = s => Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10));
+  const lastWeighIn = batch.kittens.flatMap(k => k.weights.map(w => w.date)).sort().pop();
+  if (!lastWeighIn) return "";
+  const days = Math.round((toDay(lastWeighIn) - toDay(batch.arrival)) / 86400000);
+  const now = new Date();
+  const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  const active = (today - toDay(lastWeighIn)) / 86400000 <= 1;
+  const unit = days === 1 ? "day" : "days";
+  return `${active ? "Fostering" : "Stayed"} ${days} ${unit}`;
+}
+
 // Builds date -> { arrivals: [{batchId,label}], weighIns: [{batchId,label,name,oz,isMom}] }
 function buildDateIndex(data) {
   const index = {};
