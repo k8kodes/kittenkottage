@@ -14,26 +14,159 @@ def lb(l, o=0):
 def oz(x):
     return round(x, 2)
 
+def series(dates, values):
+    """Pairs a shared date list with one kitten's values (None = not weighed that day)."""
+    assert len(dates) == len(values), (len(dates), len(values))
+    return [(d, v) for d, v in zip(dates, values) if v is not None]
+
+CRIB_DATES = [
+    "2026-08-06", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-12",
+    "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16", "2026-08-17", "2026-08-18",
+    "2026-08-19", "2026-08-21", "2026-08-23", "2026-08-24", "2026-08-25", "2026-08-26",
+    "2026-08-28", "2026-08-29", "2026-08-30", "2026-08-31", "2026-09-01", "2026-09-02",
+    "2026-09-03", "2026-09-04", "2026-09-05", "2026-09-06", "2026-09-07", "2026-09-08",
+    "2026-09-09", "2026-09-10", "2026-09-11", "2026-09-13", "2026-09-14",
+]
+# Mini Fridge, Cabbage, and Porridge came home from Greenhill on 9/14 and kept being weighed.
+CRIB_HOME_DATES = [
+    "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18", "2026-09-20",
+    "2026-09-21", "2026-09-23", "2026-09-25", "2026-09-27",
+]
+
 # Each batch: id, label, arrival date, optional mom, kittens (name/sex/color/weights), notes
 BATCHES = [
+    {
+        "id": "kr-kittens-2026",
+        "label": "KR Kittens (2)",
+        "arrival": "2026-10-12",
+        "notes": ["Not yet named."],
+        "mom": None,
+        "kittens": [
+            {"name": "KR Kit 1", "sex": "F", "color": "White", "weights": [
+                ("2026-10-13", lb(1, 1.64)), ("2026-10-14", lb(1, 5.38)), ("2026-10-15", lb(1, 6.79)),
+                ("2026-10-16", lb(1, 5.91)), ("2026-10-17", lb(1, 6.1)),
+            ]},
+            {"name": "KR Kit 2", "sex": "M", "color": "Tabby", "weights": [
+                ("2026-10-13", lb(1, 3.68)), ("2026-10-14", lb(1, 4.21)), ("2026-10-15", lb(1, 3.3)),
+                ("2026-10-16", lb(1, 2.3)), ("2026-10-17", lb(1, 2.8)),
+            ]},
+        ],
+    },
+    {
+        "id": "cribbage-litter",
+        "label": "Cribbage & Crib Kits (Mini Fridge, Sausage, Cabbage, Porridge, Pillage, Cottage Cheese & Possage)",
+        "arrival": "2026-08-06",
+        "notes": [
+            "Mini Fridge was also known as Da Bean.",
+            "Favorites at the food bowl: Royal Canin kitten loaf, Science Diet tender chicken, and Baby Blue.",
+            "Possage (nicknamed Opossum early on) liked Science Diet salmon at applesauce consistency.",
+            "On 9/14 the kittens went to Greenhill; Mini Fridge, Cabbage, and Porridge came back home with us.",
+        ],
+        "mom": {"name": "Cribbage", "weights": [
+            ("2026-08-06", lb(7, 7)), ("2026-08-08", lb(7, 5)),
+        ]},
+        "kittens": [
+            {"name": "Mini Fridge", "sex": None, "color": None, "weights": series(CRIB_DATES, [
+                oz(5.04), oz(5.19), oz(5.26), oz(5.64), oz(5.71), oz(5.86),
+                oz(6.21), oz(6.17), oz(6.7), oz(7.0), oz(7.0), oz(7.5),
+                oz(7.8), oz(9.0), oz(9.9), oz(10.8), oz(11.3), oz(11.6),
+                oz(12.6), oz(13.0), oz(12.2), oz(11.1), oz(10.8), oz(11.4),
+                oz(12.7), oz(13.8), oz(14.4), oz(14.8), oz(15.9), lb(1, 0.40),
+                lb(1, 1.64), lb(1, 1.64), lb(1, 2.52), lb(1, 4.14), lb(1, 4.42),
+            ]) + series(CRIB_HOME_DATES, [
+                lb(1, 5.2), lb(1, 5.9), lb(1, 6.8), lb(1, 7.07), lb(1, 8.4),
+                lb(1, 9.19), lb(1, 9.71), lb(1, 11.7), lb(1, 13.0),
+            ])},
+            {"name": "Sausage", "sex": None, "color": None, "weights": series(CRIB_DATES, [
+                oz(12.03), oz(12.31), oz(12.80), oz(13.09), oz(13.40), oz(13.55),
+                oz(13.86), oz(13.51), oz(14.22), oz(15.24), oz(15.87), oz(16.51),
+                oz(17.65), oz(18.73), lb(1, 3.47), lb(1, 4.5), lb(1, 5.48), lb(1, 6.08),
+                lb(1, 7.56), lb(1, 8.23), lb(1, 8.37), lb(1, 8.41), lb(1, 9.01), lb(1, 9.33),
+                lb(1, 10.0), lb(1, 11.0), lb(1, 11.8), lb(1, 11.9), lb(1, 12.8), lb(1, 14.1),
+                lb(1, 14.9), lb(2, 0.56), lb(2, 1.16), lb(2, 3.03), lb(2, 3.98),
+            ])},
+            {"name": "Cabbage", "sex": None, "color": None, "weights": series(CRIB_DATES, [
+                oz(8.36), oz(8.50), oz(8.64), oz(8.89), oz(9.10), oz(9.24),
+                oz(9.67), oz(9.81), oz(9.84), oz(10.62), oz(10.62), oz(11.50),
+                oz(12.56), oz(13.86), oz(15.06), oz(15.94), lb(1, 0.68), lb(1, 0.41),
+                lb(1, 1.64), lb(1, 3.29), lb(1, 4.39), lb(1, 4.18), lb(1, 3.65), lb(1, 4.32),
+                lb(1, 4.11), lb(1, 4.64), lb(1, 5.38), lb(1, 4.9), lb(1, 5.66), lb(1, 6.54),
+                lb(1, 7.99), lb(1, 9.33), lb(1, 9.89), lb(1, 12.3), lb(1, 12.4),
+            ]) + series(CRIB_HOME_DATES, [
+                lb(1, 13.3), lb(1, 13.1), lb(1, 14.4), lb(1, 15.7), lb(2, 0.77),
+                lb(2, 2.18), lb(2, 2.5), lb(2, 5.14), lb(2, 6.80),
+            ])},
+            {"name": "Porridge", "sex": None, "color": None, "weights": series(CRIB_DATES, [
+                oz(8.47), oz(8.99), oz(9.21), oz(9.17), oz(9.42), oz(9.88),
+                oz(10.72), oz(10.72), oz(11.25), oz(12.17), oz(12.80), oz(13.97),
+                oz(15.52), oz(17.64), oz(17.64), lb(1, 2.66), lb(1, 3.22), lb(1, 3.89),
+                lb(1, 5.13), lb(1, 6.40), lb(1, 7.1), lb(1, 7.25), lb(1, 7.95), lb(1, 7.85),
+                lb(1, 8.37), lb(1, 9.86), lb(1, 9.64), lb(1, 10.2), lb(1, 9.86), lb(1, 10.7),
+                lb(1, 11.7), lb(1, 13.3), lb(1, 13.3), lb(1, 15.5), lb(2, 0.31),
+            ]) + series(CRIB_HOME_DATES, [
+                lb(2, 0.1), lb(2, 1.9), lb(2, 2.43), lb(2, 4.23), lb(2, 5.85),
+                lb(2, 6.66), lb(2, 7.4), lb(2, 9.83), lb(2, 10.4),
+            ])},
+            {"name": "Pillage", "sex": None, "color": None, "weights": series(CRIB_DATES, [
+                oz(9.07), oz(9.38), oz(10.05), oz(10.02), oz(10.23), oz(10.48),
+                oz(10.44), oz(10.79), oz(11.32), oz(11.89), oz(12.13), oz(12.66),
+                oz(13.12), oz(13.76), oz(14.53), oz(15.13), oz(15.7), lb(1, 0.16),
+                lb(1, 1.64), lb(1, 1.64), lb(1, 1.64), lb(1, 2.87), lb(1, 2.84), lb(1, 3.93),
+                lb(1, 3.79), lb(1, 3.58), lb(1, 2.20), lb(1, 1.8), lb(1, 3.93), lb(1, 5.20),
+                lb(1, 6.86), lb(1, 8.35), lb(1, 8.52), lb(1, 10.1), lb(1, 10.7),
+            ])},
+            {"name": "Cottage Cheese", "sex": None, "color": None, "weights": series(CRIB_DATES, [
+                oz(10.76), oz(10.83), oz(11.32), oz(11.29), oz(11.57), oz(11.75),
+                oz(11.64), oz(11.75), oz(11.96), oz(12.88), oz(13.47), oz(14.11),
+                oz(14.32), oz(14.67), oz(14.96), oz(15.9), lb(1, 0.65), lb(1, 1.64),
+                lb(1, 3.97), lb(1, 4.35), lb(1, 1.64), lb(1, 5.76), lb(1, 5.91), lb(1, 6.29),
+                lb(1, 6.72), lb(1, 6.86), lb(1, 7.56), lb(1, 7.92), lb(1, 8.52), lb(1, 9.50),
+                lb(1, 10.2), lb(1, 11.8), lb(1, 12.1), lb(1, 14.1), lb(1, 14.0),
+            ])},
+            {"name": "Possage", "sex": None, "color": None, "weights": series(CRIB_DATES, [
+                oz(8.01), oz(7.94), oz(9.10), oz(9.07), oz(9.45), oz(9.17),
+                oz(9.59), oz(10.26), oz(10.58), oz(10.30), oz(10.62), oz(10.83),
+                oz(11.43), oz(12.91), oz(14.67), oz(15.94), lb(1, 0.51), lb(1, 0.44),
+                lb(1, 0.90), lb(1, 1.64), lb(1, 2.45), lb(1, 2.98), lb(1, 4.00), lb(1, 5.20),
+                lb(1, 6.15), lb(1, 7.32), lb(1, 8.44), lb(1, 8.52), lb(1, 9.61), lb(1, 10.3),
+                lb(1, 10.4), lb(1, 11.5), lb(1, 12.0), lb(1, 13.5), lb(1, 14.0),
+            ])},
+        ],
+    },
     {
         "id": "md-kittens-2026",
         "label": "The Breakfast Bunch",
         "arrival": "2026-07-14",
-        "notes": ["Awaiting names."],
+        "notes": ["Named after breakfast foods: Bagel, Croissant, Muffin, and Scone."],
         "mom": None,
         "kittens": [
-            {"name": "Kit 1", "sex": None, "color": "Orange Tabby", "weights": [
-                ("2026-07-14", lb(1.69)), ("2026-07-15", lb(1.675)),
+            {"name": "Bagel", "sex": None, "color": "Orange Tabby", "weights": [
+                ("2026-07-14", lb(1.69)), ("2026-07-15", lb(1.675)), ("2026-07-16", lb(1.700)),
+                ("2026-07-17", lb(1.675)), ("2026-07-18", lb(1.705)), ("2026-07-19", lb(1.795)),
+                ("2026-07-20", lb(1.825)), ("2026-07-21", lb(1.930)), ("2026-07-22", lb(2.000)),
+                ("2026-07-23", lb(2.050)), ("2026-07-24", lb(2.135)), ("2026-07-25", lb(2.150)),
+                ("2026-07-26", lb(2.340)),
             ]},
-            {"name": "Kit 2", "sex": None, "color": "Orange Tabby (white thumbs)", "weights": [
-                ("2026-07-14", lb(1.53)), ("2026-07-15", lb(1.55)),
+            {"name": "Croissant", "sex": None, "color": "Orange Tabby (white thumbs)", "weights": [
+                ("2026-07-14", lb(1.53)), ("2026-07-15", lb(1.55)), ("2026-07-16", lb(1.605)),
+                ("2026-07-17", lb(1.640)), ("2026-07-18", lb(1.620)), ("2026-07-19", lb(1.610)),
+                ("2026-07-20", lb(1.680)), ("2026-07-21", lb(1.760)), ("2026-07-22", lb(1.745)),
+                ("2026-07-23", lb(1.895)), ("2026-07-24", lb(2.105)), ("2026-07-25", lb(2.170)),
+                ("2026-07-26", lb(2.200)),
             ]},
-            {"name": "Kit 3", "sex": None, "color": "Brown/Black Tabby", "weights": [
-                ("2026-07-14", lb(1.5)), ("2026-07-15", lb(1.50)),
+            {"name": "Muffin", "sex": None, "color": "Brown/Black Tabby", "weights": [
+                ("2026-07-14", lb(1.5)), ("2026-07-15", lb(1.50)), ("2026-07-16", lb(1.575)),
+                ("2026-07-17", lb(1.550)), ("2026-07-18", lb(1.570)), ("2026-07-19", lb(1.635)),
+                ("2026-07-20", lb(1.720)), ("2026-07-21", lb(1.790)), ("2026-07-22", lb(1.860)),
+                ("2026-07-23", lb(1.955)), ("2026-07-24", lb(2.045)), ("2026-07-25", lb(2.125)),
+                ("2026-07-26", lb(2.190)),
             ]},
-            {"name": "Kit 4", "sex": None, "color": "Brown/Black Tabby (white on nose)", "weights": [
-                ("2026-07-14", lb(1.34)), ("2026-07-15", lb(1.470)),
+            {"name": "Scone", "sex": None, "color": "Brown/Black Tabby (white on nose)", "weights": [
+                ("2026-07-14", lb(1.34)), ("2026-07-15", lb(1.470)), ("2026-07-16", lb(1.515)),
+                ("2026-07-17", lb(1.520)), ("2026-07-18", lb(1.495)), ("2026-07-19", lb(1.560)),
+                ("2026-07-20", lb(1.610)), ("2026-07-21", lb(1.600)), ("2026-07-22", lb(1.560)),
+                ("2026-07-23", lb(1.705)), ("2026-07-24", lb(1.810)), ("2026-07-25", lb(1.855)),
+                ("2026-07-26", lb(1.890)),
             ]},
         ],
     },
