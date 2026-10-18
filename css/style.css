@@ -318,3 +318,20 @@ footer {
   .hero h1 { font-size: 1.8rem; }
   .litter-detail-header { flex-direction: column; }
 }
+
+.memorial {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  background: var(--peach-light);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+}
+.memorial img { width: 160px; height: 160px; object-fit: cover; border-radius: 12px; flex-shrink: 0; }
+.memorial h2 { margin: 0 0 0.4rem; border: none; padding: 0; font-size: 1.25rem; }
+.memorial p { margin: 0; }
+@media (max-width: 640px) {
+  .memorial { flex-direction: column; align-items: flex-start; }
+  .memorial img { width: 100%; height: auto; max-height: 260px; }
+}

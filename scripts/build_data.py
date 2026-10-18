@@ -218,6 +218,12 @@ BATCHES = [
         "label": "Iris, Pete & Nemo",
         "arrival": "2026-07-01",
         "notes": ["Started on Science Diet dry kibble from day one."],
+        "memorial": {
+            "name": "Pete",
+            "date": "2026-07-09",
+            "photo": "2026-07-07_IMG_2564.jpeg",
+            "text": 'Pete struggled to gain weight, and started fading. He died in his sleep on July 9, 2026, and I took him to Greenhill that morning. We loved singing "Pete THE cat!" to him, and his loss was so hard for all of us. I\'m glad we got the chance to love him.',
+        },
         "mom": None,
         "kittens": [
             {"name": "Iris", "sex": "F", "color": "Tortie", "weights": [
@@ -796,6 +802,8 @@ def build():
             "mom": None,
             "kittens": [],
         }
+        if b.get("memorial"):
+            batch["memorial"] = b["memorial"]
         if b["mom"]:
             batch["mom"] = {"name": b["mom"]["name"], "weights": to_records(b["mom"]["weights"])}
         for k in b["kittens"]:

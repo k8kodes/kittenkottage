@@ -1931,7 +1931,13 @@
           }
         ]
       }
-    ]
+    ],
+    "memorial": {
+      "name": "Pete",
+      "date": "2026-07-09",
+      "photo": "2026-07-07_IMG_2564.jpeg",
+      "text": "Pete struggled to gain weight, and started fading. He died in his sleep on July 9, 2026, and I took him to Greenhill that morning. We loved singing \"Pete THE cat!\" to him, and his loss was so hard for all of us. I'm glad we got the chance to love him."
+    }
   },
   {
     "id": "pascal-lovelace-euler-fibonacci",

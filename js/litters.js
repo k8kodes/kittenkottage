@@ -40,6 +40,7 @@ function renderLitterDetail() {
         ${batch.notes.map(n => `<div class="food-notes">${escapeHtml(n)}</div>`).join("")}
       </div>
     </div>
+    ${memorialSection(batch)}
     ${fullGallery(batch.id)}
     <section>
   `;
@@ -48,21 +49,41 @@ function renderLitterDetail() {
     html += kittenCard(batch.mom.name, null, null, batch.mom.weights, "#f4a6b7", true);
   }
   batch.kittens.forEach(k => {
-    html += kittenCard(k.name, k.sex, k.color, k.weights, "#4f9e8a", false);
+    const inMemory = batch.memorial && batch.memorial.name === k.name ? batch.memorial.date : null;
+    html += kittenCard(k.name, k.sex, k.color, k.weights, "#4f9e8a", false, inMemory);
   });
 
   html += `</section>`;
   container.innerHTML = html;
 }
 
-function kittenCard(name, sex, color, weights, chartColor, isMom) {
+// Tribute for a kitten we lost, shown at the top of the litter page.
+function memorialSection(batch) {
+  const m = batch.memorial;
+  if (!m) return "";
+  const photo = m.photo ? `<img src="images/${batch.id}/${encodeURIComponent(m.photo)}" alt="${escapeHtml(m.name)}">` : "";
+  return `
+    <section class="memorial">
+      ${photo}
+      <div>
+        <h2>In memory of ${escapeHtml(m.name)}</h2>
+        <p>${escapeHtml(m.text)}</p>
+      </div>
+    </section>`;
+}
+
+function kittenCard(name, sex, color, weights, chartColor, isMom, inMemoryDate) {
   const sorted = [...weights].sort((a, b) => a.date.localeCompare(b.date));
   const first = sorted[0];
   const last = sorted[sorted.length - 1];
   const meta = [sex, color].filter(Boolean).join(" · ");
+  const memoryTag = inMemoryDate
+    ? `<div class="meta"><strong>In memory</strong> &middot; ${new Date(inMemoryDate + "T00:00:00").toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })}</div>`
+    : "";
   return `
     <div class="kitten-detail-card">
       <h4>${isMom ? "🐈 " : "🐱 "}${escapeHtml(name)}${isMom ? " (mom)" : ""}</h4>
+      ${memoryTag}
       ${meta ? `<div class="meta">${escapeHtml(meta)}</div>` : ""}
       ${sparklineSVG(sorted, chartColor)}
       <div class="meta">${formatOz(first.oz)} on ${first.date} &rarr; ${formatOz(last.oz)} on ${last.date}</div>
