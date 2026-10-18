@@ -92,7 +92,7 @@
 <script>
 // Messages go through Web3Forms. The access key is public by design: it maps to the
 // destination inbox on their side, so the address itself never appears on this site.
-const WEB3FORMS_KEY = "PASTE_ACCESS_KEY_HERE";
+const WEB3FORMS_KEY = "00624ba0-c7cc-4053-ab8a-6888fb66cbc8";
 
 document.getElementById("contact-form").addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -100,7 +100,7 @@ document.getElementById("contact-form").addEventListener("submit", async (e) => 
   const status = document.getElementById("form-status");
   const button = form.querySelector("button[type=submit]");
 
-  if (WEB3FORMS_KEY === "PASTE_ACCESS_KEY_HERE") {
+  if (!WEB3FORMS_KEY) {
     status.textContent = "The contact form isn't switched on yet. Please check back soon.";
     return;
   }
