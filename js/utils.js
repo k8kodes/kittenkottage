@@ -13,16 +13,14 @@ function todayStr() {
   return d.toISOString().slice(0, 10);
 }
 
-// Formats the span between two dates as "X years, Y months" (or just one unit).
+// Whole years between two dates ("3 years"); under a year falls back to months.
 function formatDuration(from, to) {
   let years = to.getFullYear() - from.getFullYear();
   let months = to.getMonth() - from.getMonth();
   if (to.getDate() < from.getDate()) months--;
   if (months < 0) { years--; months += 12; }
-  const parts = [];
-  if (years > 0) parts.push(`${years} year${years === 1 ? "" : "s"}`);
-  if (months > 0 || years === 0) parts.push(`${months} month${months === 1 ? "" : "s"}`);
-  return parts.join(", ");
+  if (years > 0) return `${years} year${years === 1 ? "" : "s"}`;
+  return `${months} month${months === 1 ? "" : "s"}`;
 }
 
 // Stay window for a litter: arrival to the longest-staying kitten's last weigh-in
