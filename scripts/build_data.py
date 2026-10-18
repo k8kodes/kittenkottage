@@ -197,7 +197,11 @@ BATCHES = [
                 ("2024-07-28", lb(1, 10.5)), ("2024-08-02", lb(1, 13.3)), ("2024-08-04", lb(1, 15.1)),
                 ("2024-08-09", lb(2, 3.5)),
             ]},
-            {"name": "Lea", "sex": "F", "color": "Lighter Buff", "weights": [
+            {"name": "Lea", "sex": "F", "color": "Lighter Buff", "grownUp": {
+                "name": "Nami",
+                "photo": "nami-adult.jpeg",
+                "text": "Lea was adopted by a friend and is now Nami.",
+            }, "weights": [
                 ("2024-06-28", oz(10.2)), ("2024-06-30", oz(11.3)), ("2024-07-01", oz(12.0)),
                 ("2024-07-03", oz(12.7)), ("2024-07-08", oz(15.9)), ("2024-07-11", lb(1, 2.3)),
                 ("2024-07-14", lb(1, 4.7)), ("2024-07-19", lb(1, 6.3)), ("2024-07-23", lb(1, 8.6)),
@@ -812,12 +816,15 @@ def build():
         if b["mom"]:
             batch["mom"] = {"name": b["mom"]["name"], "weights": to_records(b["mom"]["weights"])}
         for k in b["kittens"]:
-            batch["kittens"].append({
+            kitten = {
                 "name": k["name"],
                 "sex": k.get("sex"),
                 "color": k.get("color"),
                 "weights": to_records(k["weights"]),
-            })
+            }
+            if k.get("grownUp"):
+                kitten["grownUp"] = k["grownUp"]
+            batch["kittens"].append(kitten)
         out.append(batch)
     return out
 

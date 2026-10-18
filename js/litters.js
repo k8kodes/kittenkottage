@@ -51,10 +51,23 @@ function renderLitterDetail() {
   batch.kittens.forEach(k => {
     const inMemory = batch.memorial && batch.memorial.name === k.name ? batch.memorial.date : null;
     html += kittenCard(k.name, k.sex, k.color, k.weights, "#4f9e8a", false, inMemory);
+    if (k.grownUp) html += grownUpCard(batch.id, k);
   });
 
   html += `</section>`;
   container.innerHTML = html;
+}
+
+// Follow-up card for a kitten who was adopted and has a new name and adult photo.
+function grownUpCard(batchId, kitten) {
+  const g = kitten.grownUp;
+  const photo = g.photo ? `<img src="images/${batchId}/${encodeURIComponent(g.photo)}" alt="${escapeHtml(g.name)}, grown up">` : "";
+  return `
+    <div class="kitten-detail-card grown-up">
+      <h4>🐱 ${escapeHtml(g.name)} (formerly ${escapeHtml(kitten.name)})</h4>
+      ${photo}
+      <div class="meta">${escapeHtml(g.text)}</div>
+    </div>`;
 }
 
 // Tribute for a kitten we lost, shown at the top of the litter page.

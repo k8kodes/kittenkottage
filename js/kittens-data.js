@@ -1718,7 +1718,12 @@ const KITTENS_DATA = [
             "date": "2024-08-09",
             "oz": 35.8
           }
-        ]
+        ],
+        "grownUp": {
+          "name": "Nami",
+          "photo": "nami-adult.jpeg",
+          "text": "Lea was adopted by a friend and is now Nami."
+        }
       },
       {
         "name": "Dona",
