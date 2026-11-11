@@ -42,6 +42,7 @@ BATCHES = [
         "notes": [
             "Named after the Gravity Falls twins: Mabel and Dipper.",
             "Favorite kibble: Iams Healthy Kitten, Royal Canin kitten, and Purina Cat Chow.",
+            "Returned to Greenhill on October 28, 2026.",
         ],
         "mom": None,
         "kittens": [

@@ -3,7 +3,10 @@ const PHOTOS_MANIFEST = {
     "2026-10-13_IMG_4258.jpeg",
     "2026-10-13_IMG_4273.jpeg",
     "2026-10-15_IMG_4302.jpeg",
-    "2026-10-16_IMG_4304.jpeg"
+    "2026-10-16_IMG_4304.jpeg",
+    "2026-10-20_IMG_4336.jpeg",
+    "2026-10-22_IMG_4404.jpeg",
+    "2026-10-25_IMG_4460.jpeg"
   ],
   "cribbage-litter": [
     "2026-08-08_IMG_2854.jpeg",
