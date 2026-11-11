@@ -4,7 +4,8 @@ const KITTENS_DATA = [
     "label": "Gravity Falls",
     "arrival": "2026-10-12",
     "notes": [
-      "Named after the Gravity Falls twins: Mabel and Dipper."
+      "Named after the Gravity Falls twins: Mabel and Dipper.",
+      "Favorite kibble: Iams Healthy Kitten, Royal Canin kitten, and Purina Cat Chow."
     ],
     "mom": null,
     "kittens": [
@@ -32,6 +33,50 @@ const KITTENS_DATA = [
           {
             "date": "2026-10-17",
             "oz": 22.1
+          },
+          {
+            "date": "2026-10-18",
+            "oz": 21.38
+          },
+          {
+            "date": "2026-10-19",
+            "oz": 22.05
+          },
+          {
+            "date": "2026-10-20",
+            "oz": 21.38
+          },
+          {
+            "date": "2026-10-21",
+            "oz": 21.55
+          },
+          {
+            "date": "2026-10-22",
+            "oz": 21.69
+          },
+          {
+            "date": "2026-10-23",
+            "oz": 24.13
+          },
+          {
+            "date": "2026-10-24",
+            "oz": 24.9
+          },
+          {
+            "date": "2026-10-25",
+            "oz": 26.0
+          },
+          {
+            "date": "2026-10-26",
+            "oz": 26.8
+          },
+          {
+            "date": "2026-10-27",
+            "oz": 27.5
+          },
+          {
+            "date": "2026-10-28",
+            "oz": 28.4
           }
         ]
       },
@@ -59,6 +104,50 @@ const KITTENS_DATA = [
           {
             "date": "2026-10-17",
             "oz": 18.8
+          },
+          {
+            "date": "2026-10-18",
+            "oz": 19.05
+          },
+          {
+            "date": "2026-10-19",
+            "oz": 20.14
+          },
+          {
+            "date": "2026-10-20",
+            "oz": 20.35
+          },
+          {
+            "date": "2026-10-21",
+            "oz": 21.0
+          },
+          {
+            "date": "2026-10-22",
+            "oz": 22.3
+          },
+          {
+            "date": "2026-10-23",
+            "oz": 23.3
+          },
+          {
+            "date": "2026-10-24",
+            "oz": 24.24
+          },
+          {
+            "date": "2026-10-25",
+            "oz": 25.82
+          },
+          {
+            "date": "2026-10-26",
+            "oz": 28.0
+          },
+          {
+            "date": "2026-10-27",
+            "oz": 28.0
+          },
+          {
+            "date": "2026-10-28",
+            "oz": 27.9
           }
         ]
       }
