@@ -346,3 +346,7 @@ footer {
 
 .adoption { background: #e8f6f1; }
 .adoption .badge { margin-bottom: 0.4rem; }
+
+.stat-card.quarantine { background: var(--purple-light); border: 1px solid var(--purple); }
+.stat-card.quarantine .num { color: #5b3a8c; }
+.stat-card .sublabel { font-size: 0.75rem; color: var(--ink-soft); margin-top: 0.1rem; }

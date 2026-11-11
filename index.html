@@ -13,7 +13,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kitten Kottage — Foster Kitten Diary</title>
-<link rel="stylesheet" href="css/style.css?v=41">
+<link rel="stylesheet" href="css/style.css?v=42">
 </head>
 <body>
 
@@ -57,11 +57,11 @@
   Foster diary maintained with love. All kittens have gone on to their forever homes (or are working on it). 🐾<br>Fostered through <a href="https://www.green-hill.org/" target="_blank" rel="noopener">Greenhill Humane Society</a>.
 </footer>
 
-<script src="js/kittens-data.js?v=41"></script>
-<script src="js/photos-data.js?v=41"></script>
-<script src="js/photos-extra.js?v=41"></script>
-<script src="js/photo-overrides.js?v=41"></script>
-<script src="js/utils.js?v=41"></script>
+<script src="js/kittens-data.js?v=42"></script>
+<script src="js/photos-data.js?v=42"></script>
+<script src="js/photos-extra.js?v=42"></script>
+<script src="js/photo-overrides.js?v=42"></script>
+<script src="js/utils.js?v=42"></script>
 <script>
 (function () {
   const totalLitters = KITTENS_DATA.length;
@@ -79,6 +79,17 @@
     return s + (w[w.length - 1].oz - w[0].oz);
   }, 0), 0));
 
+  // Ringworm quarantine: six months from 11/4/26, counted down in whole days.
+  const QUARANTINE_START = "2026-11-04";
+  const quarantineEnd = new Date(QUARANTINE_START + "T00:00:00");
+  quarantineEnd.setMonth(quarantineEnd.getMonth() + 6);
+  const now = new Date();
+  const daysLeft = Math.ceil((quarantineEnd - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 86400000);
+  const quarantineEndLabel = quarantineEnd.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+  const quarantineTile = daysLeft > 0
+    ? `<div class="stat-card quarantine"><div class="num">${daysLeft} ${daysLeft === 1 ? "day" : "days"}</div><div class="label">Ringworm Quarantine Countdown</div><div class="sublabel">Ends ${quarantineEndLabel}</div></div>`
+    : `<div class="stat-card quarantine"><div class="num">Done!</div><div class="label">Ringworm Quarantine Countdown</div><div class="sublabel">Ended ${quarantineEndLabel}</div></div>`;
+
   const earliestArrival = KITTENS_DATA.reduce((min, b) => b.arrival < min ? b.arrival : min, KITTENS_DATA[0].arrival);
   const fosteringLabel = formatDuration(new Date(earliestArrival + "T00:00:00"), new Date());
 
@@ -90,6 +101,7 @@
     <div class="stat-card"><div class="num">${totalWeighIns.toLocaleString()}</div><div class="label">Weigh-Ins Logged</div></div>
     <div class="stat-card"><div class="num">${ouncesGained.toLocaleString()}</div><div class="label">Ounces Gained</div></div>
     <div class="stat-card"><div class="num">${((totalKittens + totalMoms) * 18).toLocaleString()}</div><div class="label">Tiny Claws to Clip</div></div>
+    ${quarantineTile}
   `;
 
   const sorted = [...KITTENS_DATA].sort((a, b) => b.arrival.localeCompare(a.arrival));
